@@ -1,0 +1,16 @@
+{
+  "name": "saintsforus-php",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier -w *.php **/*.php"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.18.4",
+    "prettier": "^2.6.2"
+  }
+}

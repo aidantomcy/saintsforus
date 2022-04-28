@@ -1,0 +1,87 @@
+/* BASIC SETUP */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Poppins", arial, helvetica, sans-serif;
+}
+
+body {
+  background: #b0e0e6;
+  user-select: none;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #0000ee;
+}
+
+a:hover {
+  color: #551a8b;
+}
+
+/* SCROLLBAR CODE TAKEN FROM W3SCHOOLS */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.img-1 {
+  width: 500px;
+}
+
+.images-right {
+  float: right;
+  display: grid;
+  grid: auto;
+  margin-right: 10px;
+}
+
+.img-2 {
+  margin-top: 10px;
+}
+
+.feedback-btn {
+  display: flex;
+  justify-content: center;
+}
+
+/* RESPONSIVENESS */
+@media (max-width: 922px) {
+  .title {
+    font-size: 35px;
+  }
+
+  .quote {
+    font-size: 10px;
+    display: none;
+  }
+
+  .images-right {
+    display: none;
+  }
+
+  .contact-info {
+    font-size: 12px;
+  }
+}
