@@ -143,7 +143,7 @@
         </h2>
         <h2><a href="saints/stjoan.php">St. Joan of Arc</a></h2>
         <h2><a href="saints/stpeter.php">St. Peter</a></h2>
-        <h2><a href="stbernadette.php">St. Bernadette</a></h2>
+        <h2><a href="saints/stbernadette.php">St. Bernadette</a></h2>
         <h2>
           <a href="saints/stjohnbaptist.php">St. John the Baptist</a>
         </h2>
