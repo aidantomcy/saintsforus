@@ -97,7 +97,10 @@
       content="icon/ms-icon-144x144.png"
     />
     <meta name="theme-color" content="#ffffff" />
-    <meta name="description" content="This is a website about a few saints." />
+    <meta 
+      name="description" 
+      content="This is a website about a few Catholic saints, whose intercession we rely on in our day-to-day lives." 
+    />
     <title>Saints for Us - Home</title>
   </head>
   <body>
