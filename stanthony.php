@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/saint.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="icon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="icon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="icon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="icon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="icon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="icon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="icon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="icon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="icon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="icon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="icon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="icon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="icon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="icon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <style>
+      .container {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+        height: 3200px;
+        background: #ccc;
+      }
+    </style>
+
+    <title>Saints for Us - St. Anthony</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="text">
+          <h1>St. Anthony of Padua</h1>
+          <p>(15 August 1195-13 June 1231)</p>
+          <p>
+            "Actions speak louder than your words; let your words teach and your
+            actions speak."
+          </p>
+          <p class="quote-sayer">-St. Anthony of Padua</p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="image">
+          <img class="img" src="img/stanthony.jpg" alt="" />
+        </div>
+        <div class="text">
+          <p>
+            St. Anthony of Padua (15 August 1195-13 June 1231), also known as
+            Anthony of Lisbon, was a <br />Portuguese Catholic Priest and Friar
+            of the Franciscan Order. He was born and raised by a <br />wealthy
+            family in Lisbon, Portugal, and died in Padua, Italy. Noted by his
+            contempararies for <br />his powerful preaching, expert knowledge of
+            scripture and undying love and devotion to the <br />
+            poor and the sick, he was one of the most quickly canonized saints
+            in church history. He was <br />
+            proclaimed a Doctor of the Church on 16 January 1946. He is also the
+            patron saint of lost things.
+          </p>
+
+          <h2>Early years</h2>
+          <p>
+            Fernando Martins de Bulhoes was born in Lisbon, Portugal. While
+            15th-century writers state that his
+            <br />parents were Vicente Martins and Teresa Pais Taveira, and that
+            his father was the brother of Pedro <br />Martins de Bulhoes, the
+            ancestor of the Bulhão or Bulhoes family, Niccolo Dal-Gal views this
+            as less <br />certain. His wealthy and noble family arranged for him
+            to be instructed at the local cathedral school. <br />At the age of
+            15, he entered the Augustinian community of Canons Regular of the
+            Order of the Holy Cross <br />at the Abbey of Saint Vincent on the
+            outskirts of Lisbon. In 1212, distracted by frequent visits from
+            <br />family and friends, he asked to be transferred to the
+            motherhouse of the congregation, the Monastery <br />of the Holy
+            Cross in Coimbra, then the capital of Portugal. There, the young
+            Fernando studied theology <br />and Latin.
+          </p>
+
+          <h2>Joining the Franciscans</h2>
+          <p>
+            After his ordination to the priesthood, Fernando was named
+            guestmaster at the age of 19, and placed in
+            <br />charge of hospitality for the abbey. While he was in Coimbra,
+            some Franciscan friars arrived and settled <br />at a small
+            hermitage outside Coimbra dedicated to Anthony of Egypt. Fernando
+            was strongly attracted to
+            <br />
+            the simple, evangelical lifestyle of the friars, whose order had
+            been founded only 11 years prior. News <br />
+            arrived that five Franciscans had been beheaded in Morocco, the
+            first of their order to be killed. King
+            <br />
+            Afonso II ransomed their bodies to be returned and buried as martyrs
+            in the Abbey of Santa Cruz. Inspired
+            <br />
+            by their example, Fernando obtained permission from church
+            authorities to leave the Canons Regular to join
+            <br />
+            the new Franciscan order. Upon his admission to the life of the
+            friars, he joined the small hermitage in <br />
+            Olivais, adopting the name Anthony (from the name of the chapel
+            located there, dedicated to Anthony the Great),
+            <br />
+            by which he was to be known.
+          </p>
+          <h2>Preaching and teaching</h2>
+          <p>
+            In 1222, in the town of Forli, a number of visiting Dominican friars
+            were present for the occasion <br />of an ordination, and a
+            misunderstanding arose over who should preach. The Franciscans had
+            expected <br />that one of the Dominicans would occupy the pulpit,
+            being renowned for their preaching. However, the <br />Dominicans
+            had come unprepared, thinking a Franciscan would be the homilist. In
+            this quandary, the head <br />of the hermitage, who did not think
+            any of his own humble friars could give a homily for the occasion,
+            <br />called upon Anthony, whom he suspected was most qualified, and
+            entreated him to speak whatever the Holy <br />Spirit might inspire.
+            Anthony objected, but was overruled, and his impromptu sermon
+            created a deep <br />impression on his audience.
+          </p>
+          <h2>Legends</h2>
+          <p>
+            The story of Anthony "preaching to the fish,“ originated in Rimini,
+            where he had gone to preach. When
+            <br />heretics there treated him with contempt, Anthony was said to
+            have gone to the shoreline, where he began <br />to preach at the
+            water's edge until a great crowd of fish was seen gathered before
+            him. The people of the <br />town flocked to see this marvel, after
+            which Anthony charged them with the fact that the fish were more
+            <br />receptive to his message than the heretics of the church, at
+            which point the people were moved to listen <br />to his message. In
+            another often-told story, which took place in Toulouse, Anthony was
+            challenged by a <br />heretic to prove the reality of the presence
+            of Christ in the Eucharist. The man, who sought to mock
+            <br />Anthony, brought out a half-starved mule and showed it fresh
+            fodder on one hand, and the sacramental host <br />on the other. The
+            mule was said to have ignored the fodder and, instead of eating
+            either, bowed before the <br />sacrament.
+          </p>
+          <h2>Death</h2>
+          <p>
+            Anthony became sick with ergotism in 1231, and went to the woodland
+            retreat at Camposampiero with <br />two other friars for a respite.
+            There, he lived in a room built for him under the branches of a
+            walnut <br />tree. Anthony died on the way back to Padua on 13 June
+            1231 at the Poor Clare monastery at Arcella <br />(now part of
+            Padua), at the age of 35. According to his request, Anthony was
+            buried in the small church <br />of Santa Maria Mater Domini
+            (probably dating from the late 12th century) and near a convent
+            which had <br />been founded by him in 1229. Nevertheless, due to
+            his increased notability, construction of a large basilica
+            <br />began around 1232, although it was not completed until 1301.
+            The smaller church was incorporated into the <br />structure as the
+            Cappella della Madonna Mora (Chapel of the Dark Madonna). The
+            basilica is commonly known <br />today as "Il Santo" (The Saint).
+          </p>
+          <h2>Saint and Doctor of the Church</h2>
+          <p>
+            Anthony was canonized by Pope Gregory IX on 30 May 1232, at Spoleto,
+            Italy, less than one year after <br />his death. In the words of
+            Pope Benedict XVI: The richness of spiritual teaching contained in
+            the Sermons <br />was so great that in [16 January] 1946 Venerable
+            Pope Pius XII proclaimed Anthony a Doctor of the Church,
+            <br />attributing to him the title Doctor Evangelicus ["Evangelical
+            Doctor"], since the freshness and beauty of <br />the Gospel emerge
+            from these writings. Anthony's fame spread through Portuguese
+            evangelization, and he has <br />been known as the most celebrated
+            of the followers of Francis of Assisi. He is the patron saint of
+            Lisbon, Padua <br />and many places in Portugal and in the countries
+            of the former Portuguese Empire. He is especially invoked and
+            <br />venerated all over the world as the patron saint for the
+            recovery of lost items and is credited with many <br />miracles
+            involving lost people, lost things and even lost spiritual goods.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-links">
+      <a class="btn" href="stfrancisassisi.php">
+        <h2>Next</h2>
+      </a>
+      <a class="btn" href="index.php">
+        <h2>Back to Home Page</h2>
+      </a>
+    </div>
+
+    <script>
+      document.addEventListener("contextmenu", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
