@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="css/saint.css"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="icon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="icon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="icon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="icon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="icon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="icon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="icon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="icon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="icon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="icon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="icon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="icon/favicon-16x16.png"
+    />
+    <link
+      rel="manifest"
+      href="icon/manifest.json"
+    />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="icon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    
+  <style>
+    .container {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 1200px;
+      height: 2500px;
+      background: #ccc;
+    }
+  </style>
+
+    <title>Saints for Us - St. Francis Xavier</title>
+  </head>
+  <body>
+    
+  <div class="container">
+    <div class="header">
+      <div class="text">
+        <h1>St. Francis Xavier</h1>
+        <p>(7 April 1506-3 December 1552)</p>
+        <p>
+          "It is impossible to find a saint who did not take the 'two P's'
+          seriously. Prayer and Penance."
+        </p>
+        <p class="quote-sayer">-St. Francis Xavier</p>
+      </div>
+    </div>
+    <div class="content">
+      <div class="image">
+        <img
+          class="img"
+          src="img/stfrancisxavier.jpg"
+          alt=""
+        />
+      </div>
+      <div class="text">
+        <p>
+          St. Francis Xavier (7 April 1506-3 December 1552) was a Spanish Catholic
+          priest, missionary <br />and saint from Navarre; he was the co-founder
+          of the Society of Jesus. Born in Javier, Kingdom of <br />Navarre, he
+          was a companion of Ignatius of Loyola and one of the first seven Jesuits
+          who took vows <br />of poverty and chastity at Montmartre, Paris, in
+          1534. He led an extensive mission into Asia, mainly <br />in the
+          Portuguese Empire of the time, and was influential in evangalization
+          work, most notably in India. <br />He was beatified by Pope Paul V on 25
+          October 1619 and canonized by Pope Gregory XV on 12 March 1622.
+        </p>
+        <h2>Early Life</h2>
+        <p>
+          Francis Xavier was born in the royal castle of Xavier, in the Kingdom of
+          Navarre, on 7 April 1506
+          <br />according to a family register. He was the youngest son of Juan de
+          Jasso y Atondo, seneschal of <br />Xavier castle, who belonged to a
+          prosperous farming family and had acquired a doctorate in law at
+          <br />the University of Bologna. Basque was his mother tongue. Juan
+          later became a privy counsellor <br />and finance minister to King John
+          III of Navarre (Jean d'Albret). Francis's mother was Dona <br />Maria de
+          Azpilcueta y Aznarez, sole heiress of two noble Navarrese families. He
+          was through her <br />related to the great theologian and philosopher
+          Martin de Azpilcueta. In 1512, Ferdinand, King of <br />Aragon and
+          regent of Castile, invaded Navarre, initiating a war that lasted over 18
+          years. Three <br />years later, Francis's father died when Francis was
+          only nine years old. In 1516, Francis's brothers <br />participated in a
+          failed Navarrese-French attempt to expel the Spanish invaders from the
+          kingdom.
+        </p>
+        <h2>Missionary work</h2>
+        <p>
+          On 15 August 1534, seven students met in a crypt beneath the Church of
+          Saint Denis (now Saint Pierre de
+          <br />Montmartre), on the hill of Montmartre, overlooking Paris. They
+          were Francis, Ignatius of Loyola, Alfonso <br />Salmeron, Diego Lainez,
+          Nicolas Bobadilla from Spain, Peter Faber from Savoy, and Simao
+          Rodrigues from <br />Portugal. They made private vows of poverty,
+          chastity, and obedience to the Pope, and also vowed to go to <br />the
+          Holy Land to convert infidels. Francis began his study of theology in
+          1534 and was ordained <br />on 24 June 1537. In 1539, after long
+          discussions, Ignatius drew up a formula for a new religious order,
+          <br />the Society of Jesus (the Jesuits). Ignatius's plan for the order
+          was approved by Pope Paul III in 1540.
+        </p>
+        <h2>Burials and Relics</h2>
+        <p>
+          Xavier was first buried on a beach at Shangchuan Island, Taishan,
+          Guangdong. His body was taken from the
+          <br />
+          island in February 1553 and temporarily buried in St. Paul's Church in
+          Portuguese Malacca on 22 March 1553. <br />
+          An open grave in the church now marks the place of Xavier's burial.
+          Pereira came back from Goa, removed the <br />
+          corpse shortly after 15 April 1553, and moved it to his house. On 11
+          December 1553, Xavier's body was shipped <br />
+          to Goa. The body is now in the Basilica of Bom Jesus in Goa, where it
+          was placed in a glass container encased <br />
+          in a silver casket on 2 December 1637. This casket, constructed by Goan
+          silversmiths between 1636 and 1637, <br />
+          was an exemplary blend of Italian and Indian aesthetic sensibilities.
+          There are 32 silver plates on all four sides <br />
+          of the casket, depicting different episodes from the life of Xavier.
+        </p>
+        <h2>Veneration</h2>
+        <p>
+          Francis Xavier was beatified by Paul V on 25 October 1619, and was
+          canonized by Gregory XV on 12 March
+          <br />1622, at the same time as Ignatius Loyola. Pius XI proclaimed him
+          the "Patron of Catholic Missions". <br />His feast day is 3 December.
+          Saint Francis Xavier's relics are kept in a silver casket, elevated
+          inside <br />the Bom Jesus Basilica and are exposed (being brought to
+          ground level) generally every ten years, but <br />this is
+          discretionary. The sacred relics went on display starting on 22 November
+          2014 at the XVII Solemn <br />Exposition. The display closed on 4
+          January 2015. The previous exposition, the sixteenth, was held from
+          <br />21 November 2004 to 2 January 2005. Relics of Saint Francis Xavier
+          are also found in the Espirito Santo <br />(Holy Spirit) Church, Margao,
+          in Sanv Fransiku Xavierachi Igorz (Church of St. Francis Xavier),
+          Batpal, <br />Canacona, Goa, and at St. Francis Xavier Chapel, Portais,
+          Panjim.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-links">
+    <div class="prev-next">
+      <a class="btn" href="staidanlindisfarne.php">
+        <h2>Prev.</h2>
+      </a>
+      &nbsp;&nbsp;&nbsp;
+      <a class="btn" href="blessedcarloacutis.php">
+        <h2>Next</h2>
+      </a>
+    </div>
+    <a class="btn" href="/">
+      <h2>Back to Home Page</h2>
+    </a>
+  </div>
+
+
+    <script>
+      document.addEventListener("contextmenu", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
