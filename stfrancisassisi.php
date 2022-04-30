@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="css/saint.css"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="icon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="icon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="icon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="icon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="icon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="icon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="icon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="icon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="icon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="icon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="icon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="icon/favicon-16x16.png"
+    />
+    <link
+      rel="manifest"
+      href="icon/manifest.json"
+    />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="icon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    
+  <style>
+    .container {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 1200px;
+      height: 3200px;
+      background: #ccc;
+    }
+  </style>
+
+    <title>Saints for Us - St. Francis of Assisi</title>
+  </head>
+  <body>
+    
+  <div class="container">
+    <div class="header">
+      <div class="text">
+        <h1>St. Francis of Assisi</h1>
+        <p>(1181 or 1182-3 October 1226)</p>
+        <p>
+          "All the darkness in the world cannot extinguish the light of a
+          single candle."
+        </p>
+        <p class="quote-sayer">-St. Francis of Assisi</p>
+      </div>
+    </div>
+    <div class="content">
+      <div class="image">
+        <img
+          class="img"
+          src="img/stfrancisassisi.jpg"
+          alt=""
+        />
+      </div>
+      <div class="text">
+        <p>
+          St. Francis of Assisi (1181 or 1182-3 October 1226) was an Italian
+          Catholic Friar, deacon, <br />mystic and preacher. He founded the
+          men's Order of Friars Minor, the women's Order <br />of Saint Clare,
+          the Third Order of St. Francis and the Custody of the Holy Land.
+          Francis is <br />one of the most venerated religious figures in
+          Christianity. He was canonized by Pope <br />Gregory IX on 16 July
+          1228. Francis is known for his love of the Eucharist. In 1223,
+          Francis <br />Francis arranged for the first Christmas Live nativity
+          scene.
+        </p>
+        <h2>Early life</h2>
+        <p>
+          Francis of Assisi was born in late 1181 or early 1182, one of
+          several children of an <br />Italian father, Pietro di Bernardone
+          dei Moriconi, a prosperous silk merchant, and a <br />French mother,
+          Pica de Bourlemont, about whom little is known except that she was a
+          <br />noblewoman originally from Provence. Pietro was in France on
+          business when Francis was <br />born in Assisi, and Pica had him
+          baptized as Giovanni. Upon his return to Assisi, Pietro <br />took
+          to calling his son Francesco ("Free man", "Frenchman"), possibly in
+          honor of his <br />commercial success and enthusiasm for all things
+          French.
+        </p>
+
+        <h2>Founding of the Franciscan Orders</h2>
+        <p>
+          One morning in February 1208, Francis was taking part in a Mass in
+          the chapel of St. Mary of the Angels, <br />near which he had by
+          then built himself a hut. The Gospel of the day was the
+          "Commissioning of the Twelve" <br />from the Book of Matthew. The
+          disciples are to go and proclaim that the Kingdom of God is at hand.
+          Francis <br />was inspired to devote himself to a life of poverty.
+          Having obtained a coarse woolen tunic, the dress then <br />worn by
+          the poorest Umbrian peasants, he tied it around himself with a
+          knotted rope and went about exhorting <br />the people of the
+          countryside to penance, brotherly love, and peace. Francis's
+          preaching to ordinary people <br />was unusual as he had no license
+          to do so. His example attracted others. Within a year Francis had
+          eleven <br />followers. The brothers lived a simple life in the
+          deserted lazar house of Rivo Torto near Assisi; but they <br />spent
+          much of their time wandering through the mountainous districts of
+          Umbria, making a deep impression upon <br />their hearers by their
+          earnest exhortations.
+        </p>
+        <h2>Travels</h2>
+        <p>
+          Determined to bring the Gospel to all peoples and let God convert
+          them, Francis sought on several occasions <br />to take his message
+          out of Italy. In the late spring of 1212, he set out for Jerusalem,
+          but was shipwrecked <br />by a storm on the Dalmatian coast, forcing
+          him to return to Italy. On 8 May 1213, he was given the use of
+          <br />the mountain of La Verna (Alverna) as a gift from Count
+          Orlando di Chiusi, who described it as "eminently <br />suitable for
+          whoever wishes to do penance in a place remote from mankind". The
+          mountain would become one of <br />his favourite retreats for
+          prayer. In the same year, Francis sailed for Morocco, but an illness
+          forced him <br />to break off his journey while in Spain.
+        </p>
+        <h2>Reorganization of the Franciscan Order</h2>
+        <p>
+          The growing order of friars was divided into provinces; groups were
+          sent to France, Germany, Hungary, and
+          <br />Spain and to the East. Upon receiving a report of the
+          martyrdom of five brothers in Morocco, Francis returned <br />to
+          Italy via Venice. Cardinal Ugolino di Conti was then nominated by
+          the pope as the protector of the order. <br />Another reason for
+          Francis' return to Italy was that the Franciscan Order had grown at
+          an unprecedented rate <br />compared to previous religious orders,
+          but its organizational sophistication had not kept up with this
+          growth <br />and had little more to govern it than Francis' example
+          and simple rule. To address this problem, Francis prepared <br />a
+          new and more detailed Rule, the "First Rule" or "Rule Without a
+          Papal Bull" (Regula prima, Regula non bullata), <br />which again
+          asserted devotion to poverty and the apostolic life. However, it
+          also introduced greater institutional <br />structure, though this
+          was never officially endorsed by the pope.
+        </p>
+        <h2>Stigmata, final days, and sainthood</h2>
+        <p>
+          While he was praying on the mountain of Verna, during a forty-day
+          fast in preparation for Michaelmas (29 September),
+          <br />Francis is said to have had a vision on or about 13 September
+          1224, the Feast of the Exaltation of the Cross, as a <br />result of
+          which he received the stigmata. Brother Leo, who had been with
+          Francis at the time, left a clear and simple <br />account of the
+          event, the first definite account of the phenomenon of stigmata.
+          "Suddenly he saw a vision of a seraph, <br />a six-winged angel on a
+          cross. This angel gave him the gift of the five wounds of Christ."
+          Suffering from these stigmata <br />and from trachoma, Francis
+          received care in several cities (Siena, Cortona, Nocera) to no
+          avail. In the end, he was brought <br />back to a hut next to the
+          Porziuncola. Here he spent his last days dictating his spiritual
+          testament. He died on the evening <br />of Saturday, 3 October 1226,
+          singing Psalm 141, <em>"Voce mea ad Dominum"</em>.
+        </p>
+        <h2>Patronage</h2>
+        <p>
+          On 18 June 1939, Pope Pius XII named Francis a joint Patron Saint of
+          Italy along with Catherine of Siena
+          <br />with the apostolic letter "Licet Commissa". Pope Pius also
+          mentioned the two saints in the laudative discourse <br />he
+          pronounced on 5 May 1949, in the Church of Santa Maria Sopra
+          Minerva. Francis is the patron of animals, merchants, <br />and
+          ecology. He is also considered the patron against dying alone;
+          against fire; patron of the Franciscan Order and <br />Catholic
+          Action; of families, peace, needleworkers, and merchants, and a
+          number of religious congregations. He is the <br />patron of many
+          churches and other locations around the world, including: Italy; San
+          Pawl il-Bahar, Malta; Freising, <br />Germany; Lancaster, England;
+          Kottapuram, India; San Francisco de Malabon, Philippines (General
+          Trias City); San Francisco, <br />California; Santa Fe, New Mexico;
+          Colorado; Salina, Kansas; Metuchen, New Jersey; and Quibdó,
+          Colombia.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-links">
+    <div class="prev-next">
+      <a class="btn" href="stanthony.php">
+        <h2>Prev.</h2>
+      </a>
+      &nbsp;&nbsp;&nbsp;
+      <a class="btn" href="staidanlindisfarne.php">
+        <h2>Next</h2>
+      </a>
+    </div>
+    <a class="btn" href="index.php">
+      <h2>Back to Home Page</h2>
+    </a>
+  </div>
+
+
+    <script>
+      document.addEventListener("contextmenu", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
