@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="../css/saint.css"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="../icon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="../icon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="../icon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="../icon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="../icon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="../icon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="../icon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="../icon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../icon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="../icon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="../icon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../icon/favicon-16x16.png"
+    />
+    <link
+      rel="manifest"
+      href="../icon/manifest.json"
+    />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="../icon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    
+  <style>
+    .container {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 1200px;
+      height: 3200px;
+      background: #ccc;
+    }
+  </style>
+
+    <title>Saints for Us - St. Therese of Lisieux</title>
+  </head>
+  <body>
+    
+  <div class="container">
+    <div class="header">
+      <div class="text">
+        <h1>St Therese of Lisieux</h1>
+        <p>(2 January 1873-30 September 1897)</p>
+        <p>
+          "Remember that nothing is small in the eyes of God. Do all what you do
+          with love."
+        </p>
+        <p class="quote-sayer">-St. Therese of Lisieux</p>
+      </div>
+    </div>
+    <div class="content">
+      <div class="image">
+        <img
+          class="img"
+          src="../img/sttherese.jpg"
+          alt=""
+        />
+      </div>
+      <div class="text">
+        <p>
+          St. Therese of Lisieux (2 January 1873-30 September 1897) was a French
+          Catholic Discalced Carmelite nun
+          <br />who is widely venerated in modern times. She is popularly known as
+          "The Little Flower of Jesus," or simply <br />"The Little Flower."
+          Therese has been a highly influential model of sanctity for Catholics
+          and for others <br />because of the simplicity and practicality of her
+          approach to the spiritual life. Together with Francis of <br />Assisi,
+          she is one of the most popular saints in the history of the Church. Pope
+          Pius X called her "the <br />greatest saint of modern times." Therese
+          felt an early call to religious life and after overcoming various
+          <br />obstacles in 1888, at the early age of 15, she became a nun and
+          joined two of her older sisters in the <br />cloistered Carmelite
+          community of Lisieux, Normandy. After nine years as a Carmelite
+          religious, having <br />fulfilled various offices such as sacristan and
+          assistant to the novice mistress, and having spent her last <br />18
+          months in Carmel in a night of faith, she died at the age of 24 from
+          tuberculosis.
+        </p>
+        <h2>Family Background</h2>
+        <p>
+          Therese was born on Rue Saint-Blaise, in Alencon, France on January 2,
+          1873, and was the daughter of
+          <br />Marie-Azelie Guerin (usually called Zelie), and Louis Martin who
+          was a jeweler and watchmaker. Both her <br />parents were devout
+          Catholics who would eventually become the first (and to date only)
+          married couple <br />canonized together by the Roman Catholic Church (by
+          Pope Francis in 2015). Louis had tried to become a <br />canon regular,
+          wanting to enter the Great St Bernard Hospice, but had been refused
+          because he didn't know <br />Latin. Zelie, possessed of a strong, active
+          temperament, wished to serve the sick, and had also considered
+          <br />entering consecrated life, but the prioress of the canonesses
+          regular of the Hotel-Dieu in Alencon had <br />discouraged her outright.
+          Disappointed, Zelie learned lacemaking instead. She excelled in it and
+          set up <br />her own business on Rue Saint-Blaise at age 22.
+        </p>
+        <h2>Birth and infancy</h2>
+        <p>
+          Soon after her birth in January 1873, the outlook for the survival of
+          Therese Martin was uncertain.
+          <br />Because of her frail condition, she was entrusted to a wet nurse,
+          Rose Taille, who had already nursed <br />two of the Martin children.
+          Rose had her own children and could not live with the Martins, so
+          Therese <br />was sent to live with her in the forests of the Bocage the
+          Semalle. On 2 April 1874, when she was 15 <br />months old, she returned
+          to Alencon where her family surrounded her with affection. "I hear the
+          baby <br />calling me Mama! as she goes down the stairs. On every step,
+          she calls out Mama! and if I don't respond <br />every time, she remains
+          there without going either forward or back." (Madame Martin to Pauline,
+          21 November <br />1875) She was educated in a very Catholic environment,
+          including Mass attendance at 5:30 a.m., the strict <br />observance of
+          fasts, and prayer to the rhythm of the liturgical year. The Martins also
+          practiced charity, <br />visiting the sick and elderly and welcoming the
+          occasional vagabond to their table. Even if she was not <br />the model
+          little girl, her sisters later portrayed, Therese was very responsive to
+          this education.
+        </p>
+        <h2>Early years</h2>
+        <p>
+          Therese was taught at home until she was eight and a half, and then
+          entered the school kept by the
+          <br />Benedictine nuns of the Abbey of Notre Dame du Pre in Lisieux.
+          Therese, taught well and carefully by <br />Marie and Pauline, found
+          herself at the top of the class, except for writing and arithmetic.
+          However, <br />because of her young age and high grades, she was
+          bullied. The one who bullied her the most was a girl <br />of fourteen
+          who did poorly at school. Therese suffered very much as a result of her
+          sensitivity, and <br />she cried in silence. Furthermore, the boisterous
+          games at recreation were not to her taste. She preferred <br />to tell
+          stories or look after the little ones in the infants class.
+        </p>
+        <h2>Illness</h2>
+        <p>
+          At this time, Therese was often sick. She began to suffer from nervous
+          tremors. The tremors started one
+          <br />night after her uncle took her for a walk and began to talk about
+          Zelie. Assuming that she was cold, the <br />family covered Therese with
+          blankets, but the tremors continued. She clenched her teeth and could
+          not speak. <br />The family called Dr. Notta, who could make no
+          diagnosis. In 1882, Dr. Gayral diagnosed that Therese "reacts <br />to
+          an emotional frustration with a neurotic attack". Alarmed, but
+          cloistered, Pauline began to write letters <br />to Therese and
+          attempted various strategies to intervene. Eventually Therese recovered
+          after she had turned <br />to gaze at the statue of the Virgin Mary
+          placed in Marie's room, where Therese had been moved. She reported
+          <br />on 13 May 1883 that she had seen the Virgin smile at her. She
+          wrote: "Our Blessed Lady has come to me, she <br />has smiled upon me.
+          How happy I am."
+        </p>
+        <h2>Rome and entry to Carmel</h2>
+        <p>
+          In May 1887, Therese approached her 63-year-old father Louis, who was
+          recovering from a small stroke,
+          <br />while he sat in the garden one Sunday afternoon and told him that
+          she wanted to celebrate the anniversary <br />of "her conversion" by
+          entering Carmel before Christmas. Louis and Thérèse both broke down and
+          cried, but <br />Louis got up, gently picked a little white flower, root
+          intact, and gave it to her, explaining the care <br />with which God
+          brought it into being and preserved it until that day. Thérèse later
+          wrote: "while I listened <br />I believed I was hearing my own story".
+          To Therese, the flower seemed a symbol of herself, "destined to live
+          <br />in another soil". Therese renewed her attempts to join the Carmel,
+          but the priest-superior of the monastery <br />would not allow it on
+          account of her youth.
+        </p>
+        <h2>Final years</h2>
+        <p>
+          Therese's final years were marked by a steady decline that she bore
+          resolutely and without complaint.
+          <br />Tuberculosis was the key element of Therese's final suffering, but
+          she saw that as part of her spiritual <br />journey. After observing a
+          rigorous Lenten fast in 1896, she went to bed on the eve of Good Friday
+          and <br />felt a joyous sensation. She wrote: "Oh! how sweet this memory
+          really is! … I had scarcely laid my head <br />upon the pillow when I
+          felt something like a bubbling stream mounting to my lips. I didn't know
+          what it <br />was." The next morning her handkerchief was soaked in
+          blood and she understood her fate. Coughing up of <br />blood meant
+          tuberculosis, and tuberculosis meant death. She wrote, "I thought
+          immediately of the joyful <br />thing that I had to learn, so I went
+          over to the window. I was able to see that I was not mistaken. Ah!
+          <br />my soul was filled with a great consolation; I was interiorly
+          persuaded that Jesus, on the anniversary <br />of His own death, wanted
+          to have me hear His first call!"
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-links">
+    <div class="prev-next">
+      <a class="btn" href="stjohnxxiii.php">
+        <h2>Prev.</h2>
+      </a>
+      &nbsp;&nbsp;&nbsp;
+      <a class="btn" href="stnicholas.php">
+        <h2>Next</h2>
+      </a>
+    </div>
+    <a class="btn" href="../index.php">
+      <h2>Back to Home Page</h2>
+    </a>
+  </div>
+
+
+    <script>
+      document.addEventListener("contextmenu", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
