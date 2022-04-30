@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="../css/saint.css"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="../icon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="../icon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="../icon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="../icon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="../icon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="../icon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="../icon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="../icon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../icon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="../icon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="../icon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../icon/favicon-16x16.png"
+    />
+    <link
+      rel="manifest"
+      href="../icon/manifest.json"
+    />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="../icon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    
+  <style>
+    .container {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 1200px;
+      height: 2600px;
+      background: #ccc;
+    }
+  </style>
+
+    <title>Saints for Us - St. Joseph</title>
+  </head>
+  <body>
+    
+  <div class="container">
+    <div class="header">
+      <div class="text">
+        <h1>St. Joseph</h1>
+        <p>(100 BCE-1 AD)</p>
+        <p>
+          "We are born to love, we live to love and we will die to love still
+          more."
+        </p>
+        <p class="quote-sayer">-St. Joseph</p>
+      </div>
+    </div>
+    <div class="content">
+      <div class="image">
+        <img
+          class="img"
+          src="../img/stjoseph.jpg"
+          alt=""
+        />
+      </div>
+      <div class="text">
+        <p>
+          St. Joseph (100 BCE-1 AD) is a figure in the Canonical Gospels who was
+          married to Mary, Jesus' mother,
+          <br />and was Jesus' legal father. The Gospels name brothers of Jesus,
+          but the Gospel of James, an apocryphal <br />work of the late 2nd
+          century, explained that they were the sons of Joseph from an earlier
+          marriage. This <br />position is still held in Orthodox Churches, but in
+          the Western Church it was dropped in favour of St. <br />Jerome's
+          argument that Joseph, like Mary, must have been a lifelong virgin and
+          that the "brothers" must <br />have been his cousins. Perspectives on
+          Joseph as a historical figure are distinguished from a theological
+          <br />reading of the Gospel texts.
+        </p>
+        <h2>In the New Testament</h2>
+        <p>
+          The epistles of Paul are the oldest extant Christian writings. These
+          mention Jesus' mother (without
+          <br />naming her), but do not refer to his father. The Gospel of Mark,
+          believed to be the first gospel to <br />be written and with a date
+          about two decades after Paul, also does not mention Jesus' father. The
+          <br />first appearance of Joseph is in the gospels of Matthew and Luke,
+          often dated from around 80-90 AD. <br />Each contains a genealogy of
+          Jesus showing ancestry from King David, but through different sons;
+          Matthew <br />follows the major royal line from Solomon, while Luke
+          traces another line back to Nathan, another son <br />of David and
+          Bathsheba. Consequently, all the names between David and Joseph are
+          different. Like the <br />two differing genealogies, the infancy
+          narratives appear only in Matthew and Luke and take different
+          <br />approaches to reconciling the requirement that the Messiah be born
+          in Bethlehem with the tradition that <br />Jesus in fact came from
+          Nazareth.
+        </p>
+        <h2>Birth of Jesus</h2>
+        <p>
+          According to the author of the gospel according to Luke, a decree of the
+          Roman Emperor Augustus required
+          <br />that Joseph return to his hometown of Bethlehem to register for a
+          Roman census; see Census of Quirinius. <br />While he was there with
+          Mary, she gave birth to Jesus; but because there was no place for them
+          in the inn, <br />she used a manger as a cradle. After eight days, he
+          was circumcised according to Jewish law and named "Jesus
+          <br />(Yeshu'a), which means "Yahweh is salvation". After Mary continued
+          in the "blood of her purifying" another <br />33 days, for a total of 40
+          days, she brought her burnt offering and sin offering to the Temple in
+          Jerusalem <br />[Luke 2:22] so the priest could make atonement for
+          her.[Leviticus 12:1-8] They also presented Jesus - "As it <br />is
+          written in the law of the Lord, Every male that openeth the womb shall
+          be called holy to the Lord" (Luke <br />2:23 other verses). After the
+          prophecies of Simeon and the prophetess Anna in Luke 2:25-38, the family
+          "returned <br />into Galilee, to their own city Nazareth".
+        </p>
+        <h2>Death</h2>
+        <p>
+          The New Testament has no mention of Joseph's death, but he is never
+          mentioned after Jesus's childhood,
+          <br />and Mary is always presented as by herself, often dressed as a
+          widow, in other texts and art covering <br />the period of the ministry
+          and passion of Jesus. By contrast, the apocryphal History of Joseph the
+          <br />Carpenter, from the 5th or 6th century, has a long account of
+          Joseph's peaceful death, at the age of <br />111, in the presence of
+          Jesus (aged about 19), Mary and angels. This scene starts to appear in
+          art in <br />the 17th century.
+        </p>
+        <h2>Later apocryphal writings</h2>
+        <p>
+          The canonical gospels created a problem: they stated clearly that Mary
+          was a virgin when she conceived
+          <br />Jesus, and that Joseph was not his father; yet Joseph's paternity
+          was essential to establish Jesus' <br />Davidic descent. The theological
+          situation was complicated by the gospel references to Jesus' "brothers
+          <br />and sisters" (repeated in Paul, where James is called the "brother
+          of the Lord"), and by the fact that <br />Jesus was described
+          unambiguously by John and Matthew as "Joseph's son" and "the carpenter's
+          son". From <br />the 2nd century to the 5th writers tried to explain how
+          Jesus could be simultaneously the "son of God" <br />and the "son of
+          Joseph".
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-links">
+    <div class="prev-next">
+      <a class="btn" href="mothermary.php">
+        <h2>Prev.</h2>
+      </a>
+      &nbsp;&nbsp;&nbsp;
+      <a class="btn" href="motherteresa.php">
+        <h2>Next</h2>
+      </a>
+    </div>
+    <a class="btn" href="../index.php">
+      <h2>Back to Home Page</h2>
+    </a>
+  </div>
+
+
+    <script>
+      document.addEventListener("contextmenu", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
