@@ -125,49 +125,49 @@
       </div>
       <div class="links">
         <h2>
-          <a href="stanthony.php">St. Anthony of Padua</a>
+          <a href="saints/stanthony.php">St. Anthony of Padua</a>
         </h2>
         <h2>
-          <a href="stfrancisassisi.php">St. Francis of Assisi</a>
+          <a href="saints/stfrancisassisi.php">St. Francis of Assisi</a>
         </h2>
         <h2>
-          <a href="staidanlindisfarne.php">St. Aidan of Lindisfarne</a>
+          <a href="saints/staidanlindisfarne.php">St. Aidan of Lindisfarne</a>
         </h2>
-        <h2><a href="stfrancisxavier.php">St. Francis Xavier</a></h2>
+        <h2><a href="saints/stfrancisxavier.php">St. Francis Xavier</a></h2>
         <h2>
-          <a href="blessedcarloacutis.php">Blessed Carlo Acutis</a>
+          <a href="saints/blessedcarloacutis.php">Blessed Carlo Acutis</a>
         </h2>
-        <h2><a href="stagnes.php">St. Agnes</a></h2>
+        <h2><a href="saints/stagnes.php">St. Agnes</a></h2>
         <h2>
-          <a href="stkuriakose.php">St. Kuriakose Elias Chavara</a>
+          <a href="saints/stkuriakose.php">St. Kuriakose Elias Chavara</a>
         </h2>
-        <h2><a href="stjoan.php">St. Joan of Arc</a></h2>
-        <h2><a href="stpeter.php">St. Peter</a></h2>
+        <h2><a href="saints/stjoan.php">St. Joan of Arc</a></h2>
+        <h2><a href="saints/stpeter.php">St. Peter</a></h2>
         <h2><a href="stbernadette.php">St. Bernadette</a></h2>
         <h2>
-          <a href="stjohnbaptist.php">St. John the Baptist</a>
+          <a href="saints/stjohnbaptist.php">St. John the Baptist</a>
         </h2>
-        <h2><a href="mothermary.php">Mother Mary</a></h2>
-        <h2><a href="stjoseph.php">St. Joseph</a></h2>
-        <h2><a href="motherteresa.php">Mother Teresa</a></h2>
-        <h2><a href="stthomas.php">St. Thomas</a></h2>
-        <h2><a href="stsebastian.php">St. Sebastian</a></h2>
-        <h2><a href="stjohnpaulii.php">Pope St. John Paul II</a></h2>
+        <h2><a href="saints/mothermary.php">Mother Mary</a></h2>
+        <h2><a href="saints/stjoseph.php">St. Joseph</a></h2>
+        <h2><a href="saints/motherteresa.php">Mother Teresa</a></h2>
+        <h2><a href="saints/stthomas.php">St. Thomas</a></h2>
+        <h2><a href="saints/stsebastian.php">St. Sebastian</a></h2>
+        <h2><a href="saints/stjohnpaulii.php">Pope St. John Paul II</a></h2>
         <h2>
-          <a href="stclareassisi.php">St. Clare of Assisi</a>
+          <a href="saints/stclareassisi.php">St. Clare of Assisi</a>
         </h2>
-        <h2><a href="stgeorge.php">St. George</a></h2>
-        <h2><a href="stpaul.php">St. Paul</a></h2>
-        <h2><a href="stvianney.php">St. Vianney</a></h2>
-        <h2><a href="stphilipneri.php">St. Philip Neri</a></h2>
-        <h2><a href="stphilip.php">St. Philip</a></h2>
-        <h2><a href="stjohnxxiii.php">Pope St. John XXIII</a></h2>
+        <h2><a href="saints/stgeorge.php">St. George</a></h2>
+        <h2><a href="saints/stpaul.php">St. Paul</a></h2>
+        <h2><a href="saints/stvianney.php">St. Vianney</a></h2>
+        <h2><a href="saints/stphilipneri.php">St. Philip Neri</a></h2>
+        <h2><a href="saints/stphilip.php">St. Philip</a></h2>
+        <h2><a href="saints/stjohnxxiii.php">Pope St. John XXIII</a></h2>
         <h2>
-          <a href="sttherese.php">St. Therese of Liseux</a>
+          <a href="saints/sttherese.php">St. Therese of Liseux</a>
         </h2>
-        <h2><a href="stnicholas.php">St. Nicholas</a></h2>
+        <h2><a href="saints/stnicholas.php">St. Nicholas</a></h2>
         <h2>
-          <a href="stfrancisdesales.php">St. Francis de Sales</a>
+          <a href="saints/stfrancisdesales.php">St. Francis de Sales</a>
         </h2>
       </div>
       <div class="contact-info">
