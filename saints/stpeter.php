@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="../css/saint.css"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="../icon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="../icon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="../icon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="../icon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="../icon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="../icon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="../icon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="../icon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../icon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="../icon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="../icon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../icon/favicon-16x16.png"
+    />
+    <link
+      rel="manifest"
+      href="../icon/manifest.json"
+    />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="../icon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    
+  <style>
+    .container {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 1200px;
+      height: 3000px;
+      background: #ccc;
+    }
+  </style>
+
+    <title>Saints for Us - St. Peter</title>
+  </head>
+  <body>
+    
+  <div class="container">
+    <div class="header">
+      <div class="text">
+        <h1>St. Peter</h1>
+        <p>(AD 1-AD 68)</p>
+        <p>
+          "God loves us beyond comprehension, and we cannot diminish God's love
+          for us."
+        </p>
+        <p class="quote-sayer">-St. Peter</p>
+      </div>
+    </div>
+    <div class="content">
+      <div class="image">
+        <img
+          class="img"
+          src="../img/stpeter.jpg"
+          alt=""
+        />
+      </div>
+      <div class="text">
+        <p>
+          <br />St. Peter (AD 1-AD 68), also known as Simon Peter, was one of the
+          Twelve Apostles of Jesus Christ <br />and one of the first leaders of
+          the Early Church. According to Christian tradition, Peter was crucified
+          <br />in Rome under Emperor Nero. He is traditionally counted as the
+          first Bishop of Rome or Pope and also <br />as the first Patriarch of
+          Antioch by the Eastern Christian tradition. The ancient Christian
+          churches all venerate <br />Peter as a major saint and as the founder of
+          the Church of Antioch and the Diocese of Rome, but differ in <br />their
+          attitudes regarding the authority of his successors. According to
+          Catholic teaching, in Matthew 16:18, <br />Jesus promised Peter a
+          special position in the church.
+        </p>
+        <h2>Names and Etymologies</h2>
+        <p>
+          The New Testament presents Peter's original name as Simon. In only two
+          passages, his name is instead spelled
+          <br />"Simeon". The variation possibly reflects "the well-known custom
+          among Jews at the time of giving the name of <br />a famous patriarch or
+          personage of the Old Testament to a male child [i.e., Simeon] along with
+          a similar sounding <br />Greek/Roman name [in this case, Simon]". He was
+          later given by Jesus the name Cephas, from Aramaic (Kepha), literally
+          <br />meaning "rock" or "stone". In translations of the Bible from the
+          original Greek, his name is maintained as Cephas <br />n 9 occurrences
+          in the New Testament, whereas in the vast majority of mentions (156
+          occurrences in the New Testament) <br />he is called (Petros), from the
+          Greek and Latin word for a rock or stone (petra) to which the masculine
+          ending was <br />added, rendered into English as Peter.
+        </p>
+        <h2>First leader of the early Church</h2>
+        <p>
+          The Gospels and Acts portray Peter as the most prominent apostle, though
+          he denied Jesus three times during
+          <br />the events of the crucifixion. According to the Christian
+          tradition, Peter was the first disciple to whom <br />Jesus appeared,
+          balancing Peter's denial and restoring his position. Peter is regarded
+          as the first leader <br />of the early Church, though he was soon
+          eclipsed in this leadership by James the Just, "the Brother of the
+          <br />Lord". Because Peter was the first to whom Jesus appeared, the
+          leadership of Peter forms the basis of the <br />Apostolic succession
+          and the institutional power of orthodoxy, as the heirs of Peter, and he
+          is described <br />as "the rock" on which the church will be built.
+          Peter is always listed first among the Twelve Apostles in <br />the
+          gospels and in the Book of Acts. He is also frequently mentioned in the
+          gospels as forming with James the <br />Elder and John a special group
+          within the Twelve Apostles, present at incidents at which the others
+          were not <br />present, such as at the Transfiguration of Jesus, at the
+          raising of Jairus' daughter and at the agony in the <br />Garden of
+          Gethsemane. Peter often confesses his faith in Jesus as the Messiah.
+        </p>
+        <h2>Connection to Rome</h2>
+        <p>
+          In a tradition of the early Church, Peter is said to have founded the
+          Church in Rome with Paul, served as
+          <br />its bishop, authored two epistles, and then met martyrdom there
+          along with Paul. The Catholic Church speaks <br />of the pope, the
+          bishop of Rome, as the successor of Saint Peter. This is often
+          interpreted to imply that <br />Peter was the first Bishop of Rome.
+          However, it is also said that the institution of the papacy is not
+          <br />dependent on the idea that Peter was Bishop of Rome or even on his
+          ever having been in Rome. St. Clement of <br />Rome identifies Peter and
+          Paul as the outstanding heroes of the faith.There is no obvious biblical
+          evidence <br />that Peter was ever in Rome, but the first epistle of
+          Peter does mention that "The church that is at Babylon, <br />elected
+          together with you, saluteth you; and so doth Marcus my son."
+        </p>
+        <h2>Death and Burial</h2>
+        <p>
+          In the epilogue of the Gospel of John, Jesus hints at the death by which
+          Peter would glorify God, saying: "when
+          <br />you are old you will stretch out your hands, and another will
+          dress you and carry you where you do not want to <br />go." This is
+          interpreted by some as a reference to Peter's crucifixion. Theologians
+          Donald Fay Robinson and Warren <br />M. Smaltz have suggested that the
+          incident in Acts 12:1-17, where Peter is "released by an angel" and goes
+          to "another <br />place", really represents an idealized account of his
+          death, which may have occurred in a Jerusalem prison as early <br />as
+          AD 44.Early Church tradition says that Peter probably died by
+          crucifixion (with arms outstretched) at the time <br />of the Great Fire
+          of Rome in the year 64. This took place three months after the
+          disastrous fire that destroyed <br />Rome for which the emperor (Nero)
+          wished to blame the Christians. In the early 4th century, the Emperor
+          Constantine <br />decided to honour Peter with a large
+          basilica.[100][101] Because the precise location of Peter's burial was
+          so firmly <br />fixed in the belief of the Christians of Rome, the
+          church to house the basilica had to be erected on a site that was
+          <br />not convenient to construction.
+        </p>
+        <h2>Catholic Church</h2>
+        <p>
+          According to Catholic belief, Simon Peter was distinguished by Jesus to
+          hold the first place of honor and
+          <br />authority. Also in Catholic belief, Peter was, as the first Bishop
+          of Rome, the first Pope. Furthermore, <br />they consider every Pope to
+          be Peter's successor and the rightful superior of all other bishops.
+          However, <br />Peter never bore the title of "Pope" or "Vicar of Christ"
+          in the sense the Catholic Church considers Peter <br />the first Pope.
+          The Catholic Church's recognition of Peter as head of its church on
+          earth (with Christ being <br />its heavenly head) is based on its
+          interpretation of two passages from the canonical gospels of the New
+          <br />Testament, as well as sacred tradition.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-links">
+    <div class="prev-next">
+      <a class="btn" href="stjoan.php">
+        <h2>Prev.</h2>
+      </a>
+      &nbsp;&nbsp;&nbsp;
+      <a class="btn" href="stbernadette.php">
+        <h2>Next</h2>
+      </a>
+    </div>
+    <a class="btn" href="../index.php">
+      <h2>Back to Home Page</h2>
+    </a>
+  </div>
+
+
+    <script>
+      document.addEventListener("contextmenu", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
