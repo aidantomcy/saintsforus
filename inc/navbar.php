@@ -21,7 +21,7 @@
           <a class="nav-link" href="feedback.php">Feedback</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://aidantomcy.github.io"
+          <a class="nav-link" href="https://aidantomcy.github.io" target="_blank"
             >About the Creator</a
           >
         </li>
