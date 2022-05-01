@@ -1,5 +1,5 @@
 # Saints for Us
-This is a website about a few saints. This website has the same functionality as this: [Saints for Us](https://github.com/aidantomcy/saintsforus)  
+This website has the same functionality as this: [Saints for Us](https://github.com/aidantomcy/saintsforus)  
 but it is written in PHP instead of Python. I have used this for the final version of my website. I had
 made the other version as I hadn't used the Flask framework in a long time and I wanted to create  
 a simple app with it.
@@ -7,17 +7,14 @@ a simple app with it.
 # Saints for Us
 
 This is a website about a few saints. This is a personal project that I began because there are not  
-many websites on this topic. This project uses the Flask framework for the backend and I have  
-used plain HTML, CSS and JavaScript.
+many websites on this topic. This project uses PHP for the backend and I have used PHPMailer to send
+tge mail in the feedback form. I have used plain CSS and JavaScript.
 
 ## Content and Styling
 
 I have used Bootstrap for some of the styles.  
-I have made some mistakes with the numbering for each saint in commit messages.  
-The views.py contains the route for the home page and the other main pages,  
-while the pages.py contains the routes for all the saints.  
 I will probably dockerize this application later on.  
-This Website will be deployed soon.
+To visit the site, head to [https://saintsforus.com](https://saintsforus.com)
 
 ## Running Locally
 1. Create a .env file in the website directory with the following keys:  
