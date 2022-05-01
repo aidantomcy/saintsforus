@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@prettier/plugin-php": "^0.18.4",
     "prettier": "^2.6.2"
