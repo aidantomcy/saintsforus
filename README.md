@@ -1,15 +1,15 @@
 # Saints for Us
 
-This website has the same functionality as this: [Saints for Us](https://github.com/aidantomcy/saintsforus)  
-but it is written in PHP instead of Python. I have used this for the final version of my website. I had
-made the other version as I hadn't used the Flask framework in a long time and I wanted to create  
-a simple app with it.
+This website has the same functionality as this: [Saints for Us](https://github.com/aidantomcy/saintsforus)
+but it is written in PHP instead of Python.  
+I have used this for the final version of my website. I had made the other version as I hadn't used the  
+Flask framework in a long time and I wanted to create a simple app with it.
 
 # Saints for Us
 
 This is a website about a few saints. This is a personal project that I began because there are not  
-many websites on this topic. This project uses PHP for the backend and I have used PHPMailer to send
-tge mail in the feedback form. I have used plain CSS and JavaScript.
+many websites on this topic. This project uses PHP for the backend and I have used PHPMailer  
+to send the mail in the feedback form. I have used plain CSS and JavaScript.
 
 ## Content and Styling
 
