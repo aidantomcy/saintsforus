@@ -173,19 +173,20 @@
           <a href="saints/stfrancisdesales.html">St. Francis de Sales</a>
         </h2>
       </div>
-      <div class="contact-info">
+      <hr>
+      <div class="contact-info container-fluid">
         <p>
           <br />
           Made by-<a href="https://aidantomcy.github.io"
             >Aidan Tomcy Champannoor</a
-          ><br />
+          ><br /><br />
           If you have any doubts/complaints/feedback, please mail your queries
           to
           <a href="mailto:info@saintsforus.com"
             >info@saintsforus.com</a
           >/<a href="mailto:aidantomcy@gmail.com">aidantomcy@gmail.com</a>
-          <br />
-          <a href="/feedback">Submit Feedback</a><br />
+          <br /><br />
+          <a href="feedback.php">Submit Feedback</a><br />
           Source-<a href="https://www.wikipedia.org/">Wikipedia</a>
         </p>
       </div>
