@@ -177,7 +177,7 @@
       <div class="contact-info container-fluid">
         <p>
           <br />
-          Made by-<a href="https://aidantomcy.github.io"
+          Made by-<a href="https://aidantomcy.github.io" target="_blank"
             >Aidan Tomcy Champannoor</a
           ><br /><br />
           If you have any doubts/complaints/feedback, please mail your queries
@@ -187,7 +187,7 @@
           >/<a href="mailto:aidantomcy@gmail.com">aidantomcy@gmail.com</a>
           <br /><br />
           <a href="feedback.php">Submit Feedback</a><br />
-          Source-<a href="https://www.wikipedia.org/">Wikipedia</a>
+          Source-<a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a>
         </p>
       </div>
     </div>
