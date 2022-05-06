@@ -128,49 +128,49 @@
       </div>
       <div class="links">
         <h2>
-          <a href="saints/stanthony.php">St. Anthony of Padua</a>
+          <a href="saints/stanthony.html">St. Anthony of Padua</a>
         </h2>
         <h2>
-          <a href="saints/stfrancisassisi.php">St. Francis of Assisi</a>
+          <a href="saints/stfrancisassisi.html">St. Francis of Assisi</a>
         </h2>
         <h2>
-          <a href="saints/staidanlindisfarne.php">St. Aidan of Lindisfarne</a>
+          <a href="saints/staidanlindisfarne.html">St. Aidan of Lindisfarne</a>
         </h2>
-        <h2><a href="saints/stfrancisxavier.php">St. Francis Xavier</a></h2>
+        <h2><a href="saints/stfrancisxavier.html">St. Francis Xavier</a></h2>
         <h2>
-          <a href="saints/blessedcarloacutis.php">Blessed Carlo Acutis</a>
+          <a href="saints/blessedcarloacutis.html">Blessed Carlo Acutis</a>
         </h2>
-        <h2><a href="saints/stagnes.php">St. Agnes</a></h2>
+        <h2><a href="saints/stagnes.html">St. Agnes</a></h2>
         <h2>
-          <a href="saints/stkuriakose.php">St. Kuriakose Elias Chavara</a>
+          <a href="saints/stkuriakose.html">St. Kuriakose Elias Chavara</a>
         </h2>
-        <h2><a href="saints/stjoan.php">St. Joan of Arc</a></h2>
-        <h2><a href="saints/stpeter.php">St. Peter</a></h2>
-        <h2><a href="saints/stbernadette.php">St. Bernadette</a></h2>
+        <h2><a href="saints/stjoan.html">St. Joan of Arc</a></h2>
+        <h2><a href="saints/stpeter.html">St. Peter</a></h2>
+        <h2><a href="saints/stbernadette.html">St. Bernadette</a></h2>
         <h2>
-          <a href="saints/stjohnbaptist.php">St. John the Baptist</a>
+          <a href="saints/stjohnbaptist.html">St. John the Baptist</a>
         </h2>
-        <h2><a href="saints/mothermary.php">Mother Mary</a></h2>
-        <h2><a href="saints/stjoseph.php">St. Joseph</a></h2>
-        <h2><a href="saints/motherteresa.php">Mother Teresa</a></h2>
-        <h2><a href="saints/stthomas.php">St. Thomas</a></h2>
-        <h2><a href="saints/stsebastian.php">St. Sebastian</a></h2>
-        <h2><a href="saints/stjohnpaulii.php">Pope St. John Paul II</a></h2>
+        <h2><a href="saints/mothermary.html">Mother Mary</a></h2>
+        <h2><a href="saints/stjoseph.html">St. Joseph</a></h2>
+        <h2><a href="saints/motherteresa.html">Mother Teresa</a></h2>
+        <h2><a href="saints/stthomas.html">St. Thomas</a></h2>
+        <h2><a href="saints/stsebastian.html">St. Sebastian</a></h2>
+        <h2><a href="saints/stjohnpaulii.html">Pope St. John Paul II</a></h2>
         <h2>
-          <a href="saints/stclareassisi.php">St. Clare of Assisi</a>
+          <a href="saints/stclareassisi.html">St. Clare of Assisi</a>
         </h2>
-        <h2><a href="saints/stgeorge.php">St. George</a></h2>
-        <h2><a href="saints/stpaul.php">St. Paul</a></h2>
-        <h2><a href="saints/stvianney.php">St. Vianney</a></h2>
-        <h2><a href="saints/stphilipneri.php">St. Philip Neri</a></h2>
-        <h2><a href="saints/stphilip.php">St. Philip</a></h2>
-        <h2><a href="saints/stjohnxxiii.php">Pope St. John XXIII</a></h2>
+        <h2><a href="saints/stgeorge.html">St. George</a></h2>
+        <h2><a href="saints/stpaul.html">St. Paul</a></h2>
+        <h2><a href="saints/stvianney.html">St. Vianney</a></h2>
+        <h2><a href="saints/stphilipneri.html">St. Philip Neri</a></h2>
+        <h2><a href="saints/stphilip.html">St. Philip</a></h2>
+        <h2><a href="saints/stjohnxxiii.html">Pope St. John XXIII</a></h2>
         <h2>
-          <a href="saints/sttherese.php">St. Therese of Liseux</a>
+          <a href="saints/sttherese.html">St. Therese of Liseux</a>
         </h2>
-        <h2><a href="saints/stnicholas.php">St. Nicholas</a></h2>
+        <h2><a href="saints/stnicholas.html">St. Nicholas</a></h2>
         <h2>
-          <a href="saints/stfrancisdesales.php">St. Francis de Sales</a>
+          <a href="saints/stfrancisdesales.html">St. Francis de Sales</a>
         </h2>
       </div>
       <div class="contact-info">
