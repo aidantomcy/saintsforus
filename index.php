@@ -199,9 +199,11 @@
     <script>
       const links = document.querySelectorAll("h2");
       const title = document.querySelector("h1");
+      const imgs = document.querySelectorAll("img");
       links.forEach((link) => {
         link.classList.add("pb-2");
       });
+      imgs.forEach((img) => img.ondragstart = () => false)
 
       if (window.innerWidth <= 922) {
         title.classList.add("pb-4");
