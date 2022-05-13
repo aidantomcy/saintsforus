@@ -2,6 +2,6 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[php]": {
-    "editor.defaultFormatter": null
+    "editor.formatOnSave": false,
   }
 }
