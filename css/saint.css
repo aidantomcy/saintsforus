@@ -1,4 +1,10 @@
 /* BASIC SETUP */
+:root {
+  --background-color: #b0e0e6;
+  --header-background: #892626;
+  --button-color: #56a5eb;
+}
+
 *,
 *::before,
 *::after {
@@ -8,7 +14,7 @@
 
 body {
   user-select: none;
-  background: #b0e0e6;
+  background: var(--background-color);
 }
 
 html,
@@ -46,7 +52,7 @@ a {
 .header {
   width: 1200px;
   height: 250px;
-  background: #892626;
+  background: var(--header-background);
   color: white;
 }
 
@@ -99,10 +105,10 @@ a {
   width: 250px;
   height: 100px;
   text-align: center;
-  border: 0.1rem solid #56a5eb;
+  border: 0.1rem solid var(--button-color);
   margin-bottom: 1rem;
   text-decoration: none;
-  color: #56a5eb;
+  color: var(--button-color);
   background-color: white;
 }
 
