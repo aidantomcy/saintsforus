@@ -58,7 +58,6 @@ h1 {
 .images-right {
   float: right;
   display: grid;
-  grid: auto;
   margin-right: 10px;
 }
 
