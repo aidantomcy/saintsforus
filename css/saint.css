@@ -39,7 +39,7 @@ a {
 }
 
 .img {
-  width: clamp(200px, 1200px, 100%);
+  /* width: clamp(200px, 1200px, 100%); */
 }
 
 /* HEADER STYLING */
@@ -152,7 +152,7 @@ a {
   }
 
   .img {
-    width: 475px;
+    width: 95vw;
   }
 
   .quote-sayer {
