@@ -39,7 +39,7 @@ a {
 }
 
 .img {
-  /* width: clamp(200px, 1200px, 100%); */
+  width: 1200px;
 }
 
 /* HEADER STYLING */
