@@ -141,7 +141,7 @@ a {
   }
 
   .header p {
-    font-size: 10px !important;
+    font-size: 10px;
   }
 
   .text {
@@ -153,11 +153,11 @@ a {
   }
 
   .text p {
-    font-size: 14px !important;
+    font-size: 14px;
     max-width: 450px;
   }
 
-  .img {
+  .image img {
     width: 95vw;
   }
 
