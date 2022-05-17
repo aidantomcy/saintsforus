@@ -142,7 +142,7 @@
         </h2>
         <h2><a href="saints/stagnes.html">St. Agnes</a></h2>
         <h2>
-          <a href="saints/stkuriakose.html">St. Kuriakose Elias Chavara</a>
+          <a href="saints/stkuriakose.html">St. Kuriakose Chavara</a>
         </h2>
         <h2><a href="saints/stjoan.html">St. Joan of Arc</a></h2>
         <h2><a href="saints/stpeter.html">St. Peter</a></h2>
