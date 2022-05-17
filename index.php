@@ -173,6 +173,7 @@
           <a href="saints/stfrancisdesales.html">St. Francis de Sales</a>
         </h2>
         <h2><a href="saints/stdevasahayampillai.html">St. Devasahayam Pillai</a></h2>
+        <h2><a href="saints/stalphonsa.html">St. Alphonsa</a></h2>
       </div>
       <hr>
       <div class="contact-info container-fluid">
