@@ -66,10 +66,12 @@ a {
   font-family: "Dancing Script", cursive;
   font-size: 60px;
   padding-top: 10px;
+  text-align: center;
 }
 
 .header p {
   font-size: 19px;
+  text-align: center;
 }
 
 .quote-sayer {
@@ -149,10 +151,12 @@ a {
 
   .header h1 {
     font-size: 40px;
+    text-align: left;
   }
 
   .header p {
     font-size: 10px;
+    text-align: left;
   }
 
   .text {
