@@ -85,6 +85,11 @@ a {
 
 .text p {
   font-size: 17px;
+  text-align: center;
+}
+
+.text h2 {
+  text-align: center;
 }
 
 /* TEXT AND IMAGES CONTAINER STYLING */
