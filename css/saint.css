@@ -53,9 +53,13 @@ a {
 /* HEADER STYLING */
 .header {
   width: 1200px;
-  height: 250px;
+  height: 260px;
   background: var(--header-background);
   color: white;
+}
+
+.header-text {
+  padding-left: 30px;
 }
 
 .header h1 {
