@@ -1,2 +1,3 @@
 user-agent: *
+Sitemap: https://saintsforus.com/sitemap.xml
 disallow:
