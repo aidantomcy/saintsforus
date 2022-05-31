@@ -2,6 +2,7 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[php]": {
-    "editor.formatOnSave": false,
-  }
+    "editor.formatOnSave": false
+  },
+  "explorer.fileNesting.enabled": true
 }
