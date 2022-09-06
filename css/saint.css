@@ -50,12 +50,19 @@ a {
   width: 1200px;
 }
 
+/* CONTAINER STYLING */
+.container {
+  border-radius: 1rem;
+}
+
 /* HEADER STYLING */
 .header {
   width: 1200px;
   height: 260px;
   background: var(--header-background);
   color: white;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 
 .header-text {
@@ -123,6 +130,7 @@ a {
   text-decoration: none;
   color: var(--button-color);
   background-color: white;
+  border-radius: 1rem;
 }
 
 .btn:hover {
