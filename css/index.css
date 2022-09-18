@@ -53,11 +53,13 @@ h1 {
 
 .img-1 {
   width: 550px;
+  border-radius: 1rem;
 }
 
 .img-2 {
   margin-top: 10px;
   width: 550px;
+  border-radius: 1rem;
 }
 
 .images-right {
