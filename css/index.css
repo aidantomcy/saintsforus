@@ -12,12 +12,15 @@ body {
 
 body {
   background: #b0e0e6;
-  user-select: none;
 }
 
 h1 {
   font-size: 40px;
   font-weight: normal;
+}
+
+img {
+  user-select: none;
 }
 
 .links a {
