@@ -163,8 +163,8 @@ img {
 .contact-info {
   margin: 0;
   padding: 0;
-  background-color: #1f1f1f;
-  color: #ccc;
+  background-color: var(--background-color);
+  color: var(--text-color);
   width: 100vw;
   height: 185px;
 }
@@ -179,12 +179,12 @@ img {
 }
 
 .contact-info a {
-  color: #ccc;
+  color: var(--text-color);
   text-decoration: none;
 }
 
 .contact-info a:hover {
-  color: #fff;
+  color: var(--links-hover-color);
 }
 
 /* RESPONSIVENESS */
