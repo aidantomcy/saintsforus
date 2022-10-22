@@ -9,6 +9,7 @@
     "package.json": "package-lock.json, yarn.lock",
     "composer.json": "composer.lock"
   },
+  "explorer.fileNesting.expand": false,
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
