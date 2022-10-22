@@ -103,6 +103,7 @@ img {
 
 .nav-item {
   color: var(--text-color);
+  padding-right: 1.5rem;
 }
 
 .nav-item:hover {
@@ -183,6 +184,10 @@ img {
 }
 
 @media (max-width: 922px) {
+  .nav-item {
+    font-size: 1.1em;
+  }
+
   .title {
     font-size: 35px;
   }
