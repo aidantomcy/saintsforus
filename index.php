@@ -8,18 +8,12 @@
       rel="stylesheet"
       href="css/index.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
     <meta name="theme-color" content="#b0e0e6" />
     <link rel="manifest" href="manifest.json">
     <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
     <meta 
-      name="description" 
-      content="This is a website about a few Catholic saints, whose intercession we rely on in our day-to-day lives." 
+      name="description"
+      content="This is a website about a few Catholic saints, whose intercession we rely on in our day-to-day lives."
     />
     <script src="js/index.js" defer></script>
     <title>Saints for Us - Home</title>
