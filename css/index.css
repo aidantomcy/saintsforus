@@ -12,8 +12,6 @@
   --background-color: #1f1f1f;
   --text-color: #ccc;
   --links-hover-color: #fff;
-  --button-background: #33373a;
-  --button-hover-background: #3f4142;
 }
 
 .light {
@@ -22,7 +20,6 @@
   --links-hover-color: #000;
 }
 
-/* BASIC SETUP */
 *,
 *::before,
 *::after {
@@ -61,8 +58,6 @@ img {
 .links a:hover {
   color: var(--links-hover-color);
 }
-
-/* SCROLLBAR CODE TAKEN FROM W3SCHOOLS */
 
 ::-webkit-scrollbar {
   background-image: initial;
@@ -187,7 +182,6 @@ img {
   color: var(--links-hover-color);
 }
 
-/* RESPONSIVENESS */
 @media (max-width: 922px) {
   .title {
     font-size: 35px;

@@ -1,22 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
-/* BASIC SETUP */
 :root {
-  --background-color: #b0e0e6;
   --header-background: #892626;
-  --button-color: #56a5eb;
+  --button-color: #fa8142;
+  --background-color: #1f1f1f;
+  --text-color: #ccc;
+  --links-hover-color: #fff;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: "Poppins", arial, helvetica, sans-serif;
+  font-family: "Inter", arial, helvetica, sans-serif;
 }
 
 body {
   user-select: none;
   background: var(--background-color);
+  color: var(--text-color);
 }
 
 html,
@@ -25,44 +27,83 @@ body {
   overflow-x: hidden;
 }
 
+.dark {
+  --background-color: #1f1f1f;
+  --text-color: #ccc;
+  --links-hover-color: #fff;
+}
+
+.light {
+  --background-color: #fff;
+  --text-color: #333;
+  --links-hover-color: #000;
+}
+
 a {
   text-decoration: none;
 }
 
-/* SCROLLBAR CODE TAKEN FROM W3SCHOOLS */
-::-webkit-scrollbar {
-  width: 10px;
+a:hover {
+  color: var(--links-hover-color);
 }
 
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
+::-webkit-scrollbar {
+  background-image: initial;
+  background-color: transparent;
+  height: 8px;
+  width: 8px;
+  background-color: #202324;
+  color: #aba499;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #181a1b;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  border-color: initial;
+  box-shadow: none;
+  background-image: initial;
+  background-color: #555;
+  border: none;
+  box-shadow: none;
+  border-radius: 4px;
+  min-height: 40px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #404344;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #4a4c4d;
+}
+
+::-webkit-scrollbar-track {
+  margin: 3px 0;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
 }
 
 .img {
-  width: 1200px;
+  width: 1000px;
+  border-radius: 1rem;
 }
 
-/* CONTAINER STYLING */
 .container {
   border-radius: 1rem;
 }
 
-/* HEADER STYLING */
 .header {
   width: 1200px;
   height: 260px;
   background: var(--header-background);
   color: white;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
+  border-radius: 1rem;
 }
 
 .header-text {
@@ -70,7 +111,7 @@ a {
 }
 
 .header h1 {
-  font-family: "Dancing Script", cursive;
+  font-weight: normal;
   font-size: 60px;
   padding-top: 10px;
   text-align: center;
@@ -86,7 +127,12 @@ a {
   padding-right: 10px;
 }
 
-/* TEXT DIV STYLING */
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
 
 .text {
   margin-left: 30px;
@@ -101,14 +147,12 @@ a {
   text-align: center;
 }
 
-/* TEXT AND IMAGES CONTAINER STYLING */
 .content {
   width: 1200px;
-  height: 2150px;
 }
 
-/* STYLING FOR LINKS AT BOTTOM OF PAGE */
 .bottom-links {
+  margin-top: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -129,14 +173,19 @@ a {
   margin-bottom: 1rem;
   text-decoration: none;
   color: var(--button-color);
-  background-color: white;
   border-radius: 1rem;
+  color: var(--text-color);
+}
+
+.btn h2 {
+  font-weight: normal;
 }
 
 .btn:hover {
   cursor: pointer;
   transform: translateY(-0.1rem);
-  transition: transform 150ms;
+  background-color: var(--button-color);
+  transition: background-color 0.4s ease;
 }
 
 .prev-next {
@@ -146,7 +195,6 @@ a {
   justify-content: center;
 }
 
-/* RESPONSIVENESS FOR MOBILE DEVICES */
 @media (max-width: 768px) {
   .container {
     width: 100vw;
@@ -189,7 +237,6 @@ a {
   }
 }
 
-/* RESPONSIVENESS FOR TABLETS AND IPADS */
 @media (max-width: 1210px) {
   .container {
     width: 768px;
