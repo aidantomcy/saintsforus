@@ -103,6 +103,7 @@ img {
 .navbar {
   display: flex;
   justify-content: center;
+  margin-top: 1rem;
 }
 
 .nav-item {
@@ -174,6 +175,7 @@ img {
 
 .contact-info p {
   text-align: center;
+  font-size: 1.2em;
 }
 
 .contact-info a {
