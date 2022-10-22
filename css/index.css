@@ -1,3 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+:root {
+  --background-color: #1f1f1f;
+  --text-color: #ccc;
+  --links-hover-color: #fff;
+  --button-background: #33373a;
+  --button-hover-background: #3f4142;
+}
+
+.dark {
+  --background-color: #1f1f1f;
+  --text-color: #ccc;
+  --links-hover-color: #fff;
+  --button-background: #33373a;
+  --button-hover-background: #3f4142;
+}
+
+.light {
+  --background-color: #fff;
+  --text-color: #333;
+  --links-hover-color: #000;
+}
+
 /* BASIC SETUP */
 *,
 *::before,
@@ -11,11 +35,13 @@ body {
 }
 
 body {
-  background: #b0e0e6;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: "inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 3em;
   font-weight: normal;
 }
 
@@ -23,31 +49,93 @@ img {
   user-select: none;
 }
 
+.links h2 {
+  font-size: 2em;
+}
+
 .links a {
   text-decoration: none;
-  color: #0000ee;
+  color: var(--text-color);
 }
 
 .links a:hover {
-  color: #551a8b;
+  color: var(--links-hover-color);
 }
 
 /* SCROLLBAR CODE TAKEN FROM W3SCHOOLS */
 
 ::-webkit-scrollbar {
-  width: 10px;
+  background-image: initial;
+  background-color: transparent;
+  height: 8px;
+  width: 8px;
+  background-color: #202324;
+  color: #aba499;
 }
 
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
+::-webkit-scrollbar-corner {
+  background-color: #181a1b;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  border-color: initial;
+  box-shadow: none;
+  background-image: initial;
+  background-color: #555;
+  border: none;
+  box-shadow: none;
+  border-radius: 4px;
+  min-height: 40px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #404344;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #4a4c4d;
+}
+
+::-webkit-scrollbar-track {
+  margin: 3px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  color: var(--text-color);
+}
+
+.nav-item:hover {
+  color: var(--links-hover-color);
+}
+
+.navbar button {
+  width: 2.25rem;
+  height: 2.25rem;
+  background-color: var(--button-background);
+  border: 1px solid var(--button-background);
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.navbar button:hover {
+  background-color: var(--button-hover-background);
+  cursor: pointer;
+}
+
+.nav-item {
+  margin-right: 1.5rem;
+  margin-bottom: 3rem;
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 1.5em;
 }
 
 .align-right {
@@ -73,12 +161,11 @@ img {
 
 .contact-info {
   margin: 0;
+  padding: 0;
   background-color: #1f1f1f;
   color: #ccc;
   width: 100vw;
-  margin-left: calc(50% - 50vw);
   height: 185px;
-  margin-bottom: 0;
 }
 
 .links h2 {

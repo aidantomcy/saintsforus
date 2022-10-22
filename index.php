@@ -6,10 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
       href="css/index.css"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -27,7 +23,7 @@
     />
     <title>Saints for Us - Home</title>
   </head>
-  <body>
+  <body class="dark">
     <?php include "inc/navbar.php"; ?>
 
     <div class="container-fluid">
@@ -99,8 +95,8 @@
         <h2><a href="saints/stdevasahayampillai.html">St. Devasahayam Pillai</a></h2>
         <h2><a href="saints/stalphonsa.html">St. Alphonsa</a></h2>
       </div>
-      <hr>
-      <div class="contact-info container-fluid">
+      <hr />
+      <div class="contact-info">
         <p>
           <br />
           Made by-<a href="https://aidantomcy.github.io" target="_blank"
@@ -118,18 +114,22 @@
       </div>
     </div>
 
-    <script
-      src="js/bootstrap.bundle.min.js"
-      defer
-    ></script>
     <script>
-      const links = document.querySelectorAll("h2");
       const title = document.querySelector("h1");
       const imgs = document.querySelectorAll("img");
-      links.forEach((link) => {
-        link.classList.add("pb-2");
-      });
+      const themeSwitcherBtn = document.querySelector("#theme-switcher");
+
       imgs.forEach((img) => img.ondragstart = () => false)
+      document.body.classList.add(localStorage.theme)
+      themeSwitcherBtn.addEventListener("click", () => {
+        if (document.body.classList.contains("dark")) {
+            document.body.classList.replace("dark", "light")
+            localStorage.setItem("theme", "light")
+        } else if (document.body.classList.contains("light")) {
+            document.body.classList.replace("light", "dark")
+            localStorage.setItem("theme", "dark")
+        }
+      })
 
       if (window.innerWidth <= 922) {
         title.classList.add("pb-4");

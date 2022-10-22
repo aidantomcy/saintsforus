@@ -1,31 +1,10 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <div class="navbar-brand">Saints for Us</div>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.php">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="feedback.php">Feedback</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://aidantomcy.github.io" target="_blank"
-            >About the Creator</a
-          >
-        </li>
-      </ul>
-    </div>
-  </div>
+<nav class="navbar">
+  <a href="index.php" class="nav-item">Home</a>
+  <a href="feedback.php" class="nav-item">Feedback</a>
+  <a href="https://aidantomcy.github.io" class="nav-item">About the Creator</a>
+  <button id="theme-switcher">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+</svg>
+  </button>
 </nav>
