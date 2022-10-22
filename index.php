@@ -132,9 +132,9 @@
       imgs.forEach((img) => img.ondragstart = () => false)
       document.body.classList.add(localStorage.theme)
       if (localStorage.theme === "dark") {
-        themeSwitcherBtn.innerHTML = moon;
-      } else if (localStorage.theme === "light") {
         themeSwitcherBtn.innerHTML = sun;
+      } else if (localStorage.theme === "light") {
+        themeSwitcherBtn.innerHTML = moon;
       }
       themeSwitcherBtn.addEventListener("click", () => {
         if (document.body.classList.contains("dark")) {
