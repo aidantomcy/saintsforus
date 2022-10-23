@@ -196,6 +196,10 @@ img {
 }
 
 @media (max-width: 922px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
   .nav-item {
     display: none;
   }
