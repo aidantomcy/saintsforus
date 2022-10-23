@@ -1,4 +1,3 @@
-const title = document.querySelector("h1");
 const imgs = document.querySelectorAll("img");
 const themeSwitcherBtn = document.querySelector("#theme-switcher");
 const moon = `
@@ -9,6 +8,8 @@ const sun = `
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
 </svg>`;
+const hamburgerBtn = document.querySelector(".hamburger");
+const hamburgerMenu = document.querySelector(".hamburger-menu");
 
 imgs.forEach((img) => (img.ondragstart = () => false));
 
@@ -43,9 +44,27 @@ themeSwitcherBtn.addEventListener("click", () => {
   }
 });
 
-if (window.innerWidth <= 922) {
-  title.classList.add("pb-4");
-}
+hamburgerBtn.addEventListener("click", () => {
+  if (hamburgerMenu.classList.contains("show")) {
+    hamburgerMenu.classList.remove("show");
+    hamburgerMenu.style.display = "none";
+  } else {
+    hamburgerMenu.style.cssText = `
+      display: flex;
+      margin-top: 1rem;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 95vw;
+      font-size: 1.5em;
+      background: var(--hamburger-menu-background);
+      border-radius: 1rem;
+      overflow: hidden;
+      padding: 1rem;
+    `;
+    hamburgerMenu.classList.add("show");
+  }
+});
 
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("./service-worker.js");

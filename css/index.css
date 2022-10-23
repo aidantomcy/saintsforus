@@ -6,18 +6,21 @@
   --links-hover-color: #fff;
   --button-background: #33373a;
   --button-hover-background: #3f4142;
+  --hamburger-menu-background: #2c2c2c;
 }
 
 .dark {
   --background-color: #1f1f1f;
   --text-color: #ccc;
   --links-hover-color: #fff;
+  --hamburger-menu-background: #2c2c2c;
 }
 
 .light {
   --background-color: #fff;
   --text-color: #333;
   --links-hover-color: #000;
+  --hamburger-menu-background: #c2c2c2;
 }
 
 *,
@@ -110,7 +113,7 @@ img {
   color: var(--links-hover-color);
 }
 
-.navbar button {
+.navbar .theme-switcher {
   width: 2.25rem;
   height: 2.25rem;
   background-color: var(--button-background);
@@ -120,6 +123,15 @@ img {
   justify-content: center;
   align-items: center;
   color: white;
+  margin-right: 1.5rem;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.hamburger {
+  display: none;
 }
 
 .navbar button:hover {
@@ -161,7 +173,7 @@ img {
   padding: 0;
   background-color: var(--background-color);
   color: var(--text-color);
-  width: 100vw;
+  width: 95vw;
   height: 185px;
 }
 
@@ -185,11 +197,49 @@ img {
 
 @media (max-width: 922px) {
   .nav-item {
-    font-size: 1.1em;
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .navbar .theme-switcher {
+    width: 2.7rem;
+    height: 2.7rem;
+  }
+
+  .navbar .hamburger {
+    display: contents;
+    width: 2.7rem;
+    height: 2.7rem;
+    background-color: var(--button-background);
+    border: 1px solid var(--button-background);
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 1.5rem;
+  }
+
+  .hamburger-menu a {
+    text-decoration: none;
+    color: var(--text-color);
+  }
+
+  .hamburger-menu a:hover {
+    color: var(--links-hover-color);
+  }
+
+  .hamburger-item {
+    padding-bottom: 1rem;
   }
 
   .title {
     font-size: 35px;
+    padding-bottom: 1rem;
   }
 
   .quote {
