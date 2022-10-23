@@ -196,6 +196,14 @@ img {
 }
 
 @media (max-width: 922px) {
+  .title {
+    text-align: center;
+  }
+
+  .links {
+    text-align: center;
+  }
+
   body {
     overflow: hidden;
   }
@@ -247,7 +255,7 @@ img {
 
   .title {
     font-size: 35px;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
   }
 
   .quote {
