@@ -197,7 +197,7 @@ img {
 
 @media (max-width: 922px) {
   ::-webkit-scrollbar {
-    display: none;
+    width: 2px;
   }
 
   .nav-item {
