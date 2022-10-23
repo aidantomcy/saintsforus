@@ -196,8 +196,12 @@ img {
 }
 
 @media (max-width: 922px) {
+  body {
+    overflow: hidden;
+  }
+
   ::-webkit-scrollbar {
-    width: 2px;
+    display: none;
   }
 
   .nav-item {
