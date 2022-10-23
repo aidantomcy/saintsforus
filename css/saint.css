@@ -190,6 +190,10 @@ a:hover {
   transition: background-color 0.4s ease;
 }
 
+.btn:active {
+  scale: 0.98;
+}
+
 .prev-next {
   width: 100%;
   display: flex;
