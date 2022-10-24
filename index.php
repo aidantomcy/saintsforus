@@ -21,7 +21,7 @@
   <body class="dark">
     <?php include "inc/navbar.php"; ?>
 
-    <div class="container-fluid">
+    <main>
       <h1 class="title pt-4">Saints for Us</h1>
       <div class="quote">
         <h1>"Your word is a lamp to guide my feet and a light for my path."</h1>
@@ -107,7 +107,6 @@
           Source-<a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a>
         </p>
       </div>
-    </div>
-
+    </main>
   </body>
 </html>
