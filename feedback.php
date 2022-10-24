@@ -79,27 +79,10 @@ sendFeedback();
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="css/feedback.css">
     <meta name="theme-color" content="#b0e0e6" />
     <link rel="manifest" href="manifest.json">
     <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
-    <style>
-      body {
-        background-color: powderblue;
-        user-select: none;
-      }
-
-      textarea {
-        resize: none;
-      }
-
-      label {
-        font-size: 18px;
-      }
-    </style>
     <title>Saints for Us - Feedback</title>
   </head>
   <body>
@@ -107,68 +90,128 @@ sendFeedback();
 
     <?php if (isset($_GET["error"])): ?>
         <?php if ($_GET["error"] == "invalidemail"): ?>
-            <div class="alert alert-danger alter-dismissible fade show" role="alert">
-                Invalid Email
-                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <div class="alert-container">
+                <div class="error-alert">
+                  Invalid Email
+                  <button class="cancel-button">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M6 18L18 6M6 6l12 12"
+                        />
+                      </svg>
+                    </button>
+                </div>
             </div>
         <?php endif; ?>
         <?php if ($_GET["error"] == "smtperror"): ?>
-            <div class="alert alert-danger alter-dismissible fade show" role="alert">
-                Your message could not be sent. Please try again later.
-                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <div class="alert-container">
+                <div class="error-alert">
+                    Your message could not be sent. Please try again later.
+                    <button class="cancel-button">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M6 18L18 6M6 6l12 12"
+                        />
+                      </svg>
+                    </button>
+                </div>
             </div>
         <?php endif; ?>
         <?php if ($_GET["error"] == "none"): ?>
-            <div class="alert alert-success alter-dismissible fade show" role="alert">
-                Thank you for your feedback!
-                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <div class="alert-container">
+                <div class="success-alert">
+                    Thank you for your feedback!
+                    <button class="cancel-button">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M6 18L18 6M6 6l12 12"
+                        />
+                      </svg>
+                    </button>
+                </div>
             </div>
         <?php endif; ?>
     <?php endif; ?>
 
-    <h1 class="d-flex justify-content-center align-items-center mt-4">
+    <h1 class="title">
       Feedback
     </h1>
 
-    <div class="container">
+    <div class="feedback-form">
       <form method="POST">
-        <label for="name" class="mt-2">Name</label>
         <input
           type="text"
           id="name"
           name="name"
-          class="form-control form-control-lg mt-2"
           placeholder="Your name"
           autocomplete="off"
           required
         />
-        <label for="email" class="mt-2">Email</label>
         <input
           type="text"
           id="email"
           name="email"
-          class="form-control form-control-lg mt-2"
           placeholder="Your email address"
           autocomplete="off"
           required
         />
-        <label for="message" class="mt-2">Message</label>
         <textarea
           name="message"
           id="message"
           cols="30"
           rows="8"
-          class="form-control form-control-lg mt-2"
           placeholder="Message"
           required
         ></textarea>
-        <button class="btn btn-primary mt-4" type="submit" name="submit">
+        <button class="btn" type="submit" name="submit">
           Submit
         </button>
       </form>
     </div>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+        const errorAlertCancelBtn = document.querySelector(".error-alert button") || null;
+        const successAlertCancelBtn = document.querySelector(".success-alert button") || null;
+
+        if (errorAlertCancelBtn) {
+            errorAlertCancelBtn.addEventListener("click", () => {
+                document.querySelector(".error-alert").style.cssText = "display: none;"
+            })
+
+        }
+        if (successAlertCancelBtn) {
+        successAlertCancelBtn.addEventListener("click", () => {
+            document.querySelector(".success-alert").style.cssText = "display: none;"
+        })
+    }
+    </script>
   </body>
 </html>
