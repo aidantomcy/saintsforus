@@ -16,7 +16,6 @@
 }
 
 body {
-  user-select: none;
   background: var(--background-color);
   color: var(--text-color);
 }
