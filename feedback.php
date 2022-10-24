@@ -41,7 +41,7 @@ function sendFeedback()
                 $mail->Subject = "New Form Submission in Website";
 
                 $mail->Body = "<h1>New Form Submission in Website</h1>";
-                $mail->Body .= "There is new form submission in the website.";
+                $mail->Body .= "There is a new form submission in the website.";
                 $mail->Body .= "<br>";
                 $mail->Body .= "Here are the details:";
                 $mail->Body .= "<ul>";
@@ -198,14 +198,13 @@ sendFeedback();
 
     <script src="js/index.js"></script>
     <script>
-        const errorAlertCancelBtn = document.querySelector(".error-alert button") || null;
-        const successAlertCancelBtn = document.querySelector(".success-alert button") || null;
+        const errorAlertCancelBtn = document.querySelector(".error-alert button");
+        const successAlertCancelBtn = document.querySelector(".success-alert button");
 
         if (errorAlertCancelBtn) {
             errorAlertCancelBtn.addEventListener("click", () => {
                 document.querySelector(".error-alert").style.cssText = "display: none;"
             })
-
         }
         if (successAlertCancelBtn) {
         successAlertCancelBtn.addEventListener("click", () => {
