@@ -1,4 +1,3 @@
-const imgs = document.querySelectorAll("img");
 const themeSwitcherBtn = document.querySelector("#theme-switcher");
 const moon = `
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -10,46 +9,40 @@ const sun = `
 </svg>`;
 const hamburgerBtn = document.querySelector(".hamburger");
 const hamburgerMenu = document.querySelector(".hamburger-menu");
-
-imgs.forEach((img) => (img.ondragstart = () => false));
-
-if (
-  localStorage.theme === "dark" ||
-  !(
-    "theme" in localStorage &&
-    window.matchMedia("(prefers-color-scheme: dark)").matches
-  )
-) {
-  localStorage.theme = "dark";
-} else {
-  localStorage.theme = "light";
+if (localStorage.theme === "dark" ||
+    !("theme" in localStorage &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+    localStorage.theme = "dark";
 }
-
+else {
+    localStorage.theme = "light";
+}
 document.body.classList.add(localStorage.theme);
-
 if (localStorage.theme === "dark") {
-  themeSwitcherBtn.innerHTML = sun;
-} else if (localStorage.theme === "light") {
-  themeSwitcherBtn.innerHTML = moon;
+    themeSwitcherBtn.innerHTML = sun;
+}
+else if (localStorage.theme === "light") {
+    themeSwitcherBtn.innerHTML = moon;
 }
 themeSwitcherBtn.addEventListener("click", () => {
-  if (document.body.classList.contains("dark")) {
-    document.body.classList.replace("dark", "light");
-    localStorage.setItem("theme", "light");
-    themeSwitcherBtn.innerHTML = moon;
-  } else if (document.body.classList.contains("light")) {
-    document.body.classList.replace("light", "dark");
-    localStorage.setItem("theme", "dark");
-    themeSwitcherBtn.innerHTML = sun;
-  }
+    if (document.body.classList.contains("dark")) {
+        document.body.classList.replace("dark", "light");
+        localStorage.setItem("theme", "light");
+        themeSwitcherBtn.innerHTML = moon;
+    }
+    else if (document.body.classList.contains("light")) {
+        document.body.classList.replace("light", "dark");
+        localStorage.setItem("theme", "dark");
+        themeSwitcherBtn.innerHTML = sun;
+    }
 });
-
 hamburgerBtn.addEventListener("click", () => {
-  if (hamburgerMenu.classList.contains("show")) {
-    hamburgerMenu.classList.remove("show");
-    hamburgerMenu.style.display = "none";
-  } else {
-    hamburgerMenu.style.cssText = `
+    if (hamburgerMenu.classList.contains("show")) {
+        hamburgerMenu.classList.remove("show");
+        hamburgerMenu.style.display = "none";
+    }
+    else {
+        hamburgerMenu.style.cssText = `
       display: flex;
       margin-top: 1rem;
       flex-direction: column;
@@ -62,10 +55,10 @@ hamburgerBtn.addEventListener("click", () => {
       overflow: hidden;
       padding: 1rem;
     `;
-    hamburgerMenu.classList.add("show");
-  }
+        hamburgerMenu.classList.add("show");
+    }
 });
-
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("./service-worker.js");
+    navigator.serviceWorker.register("./service-worker.js");
 }
+//# sourceMappingURL=index.js.map
