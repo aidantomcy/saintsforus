@@ -15,7 +15,7 @@
       name="description"
       content="This is a website about a few Catholic saints, whose intercession we rely on in our day-to-day lives."
     />
-    <script src="js/index.js" defer></script>
+    <script src="dist/index.js" defer></script>
     <title>Saints for Us - Home</title>
   </head>
   <body class="dark">

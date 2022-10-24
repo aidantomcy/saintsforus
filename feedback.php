@@ -196,7 +196,7 @@ sendFeedback();
       </form>
     </div>
 
-    <script src="js/index.js"></script>
+    <script src="dist/index.js"></script>
     <script>
         const errorAlertCancelBtn = document.querySelector(".error-alert button");
         const successAlertCancelBtn = document.querySelector(".success-alert button");
