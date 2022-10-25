@@ -79,7 +79,7 @@ sendFeedback();
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/feedback.css">
+    <link rel="stylesheet" href="dist/css/feedback.css">
     <meta name="theme-color" content="#b0e0e6" />
     <link rel="manifest" href="manifest.json">
     <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
@@ -91,7 +91,7 @@ sendFeedback();
     <?php if (isset($_GET["error"])): ?>
         <?php if ($_GET["error"] == "invalidemail"): ?>
             <div class="alert-container">
-                <div class="error-alert">
+                <div class="alert error-alert">
                   Invalid Email
                   <button class="cancel-button">
                       <svg
@@ -114,7 +114,7 @@ sendFeedback();
         <?php endif; ?>
         <?php if ($_GET["error"] == "smtperror"): ?>
             <div class="alert-container">
-                <div class="error-alert">
+                <div class="alert error-alert">
                     Your message could not be sent. Please try again later.
                     <button class="cancel-button">
                       <svg
@@ -137,7 +137,7 @@ sendFeedback();
         <?php endif; ?>
         <?php if ($_GET["error"] == "none"): ?>
             <div class="alert-container">
-                <div class="success-alert">
+                <div class="alert success-alert">
                     Thank you for your feedback!
                     <button class="cancel-button">
                       <svg
@@ -196,7 +196,7 @@ sendFeedback();
       </form>
     </div>
 
-    <script src="dist/index.js"></script>
+    <script src="dist/js/index.js"></script>
     <script>
         const errorAlertCancelBtn = document.querySelector(".error-alert button");
         const successAlertCancelBtn = document.querySelector(".success-alert button");
