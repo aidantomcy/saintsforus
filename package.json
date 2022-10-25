@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "tsc -w",
     "prod": "tsc",
+    "sass:dev": "sass -w scss/styles.scss:dist/css/styles.css scss/feedback.scss:dist/css/feedback.css scss/saint.scss:dist/css/saint.css --style compressed",
+    "sass:prod": "sass scss/styles.scss:dist/css/styles.css scss/feedback.scss:dist/css/feedback.css scss/saint.scss:dist/css/saint.css --style compressed",
     "format": "prettier -w *.php **/*.php"
   },
   "keywords": [],
