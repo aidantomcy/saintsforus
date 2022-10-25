@@ -18,6 +18,7 @@
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
     "**/vendor": true,
-    "**/.dccache": true
+    "**/.dccache": true,
+    "**/dist": true
   }
 }
