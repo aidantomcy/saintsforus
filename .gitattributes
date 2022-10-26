@@ -1,1 +1,1 @@
-*.html linguist-detectable=false
+*.{html,scss} linguist-detectable=false
