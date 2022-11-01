@@ -1,3 +1,4 @@
+@use "./mixins";
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 :root {
@@ -14,13 +15,15 @@
   --text-color: #ccc;
   --links-hover-color: #fff;
   --hamburger-menu-background: #2c2c2c;
+  @include mixins.darkThemeBg();
 }
 
 .light {
   --background-color: #fff;
-  --text-color: #333;
-  --links-hover-color: #000;
+  --text-color: #000;
+  --links-hover-color: #333;
   --hamburger-menu-background: #c2c2c2;
+  @include mixins.lightThemeBg();
 }
 
 *,
@@ -165,16 +168,26 @@ img {
   margin: 10px;
 }
 
+footer {
+  width: 100vw;
+  height: auto;
+  display: grid;
+  place-items: center;
+}
+
 .contact-info {
   margin: 0;
   padding: 0;
   background-color: var(--background-color);
   color: var(--text-color);
   width: 95vw;
-  height: 185px;
+  height: 215px;
+  border-radius: 1rem;
+  border: 2px solid var(--text-color);
 
   p {
     text-align: center;
+    margin-bottom: 1rem;
     font-size: 1.2em;
   }
 
@@ -262,5 +275,6 @@ img {
   .contact-info {
     font-size: 12px;
     height: 155px;
+    width: 93vw;
   }
 }
