@@ -14,7 +14,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@prettier/plugin-php": "0.19.1",
+    "@prettier/plugin-php": "0.19.2",
     "prettier": "^2.6.2",
     "sass": "^1.55.0",
     "typescript": "^4.8.4"

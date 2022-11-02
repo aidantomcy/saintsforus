@@ -1,27 +1,27 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@prettier/plugin-php': 0.19.1
+  '@prettier/plugin-php': 0.19.2
   prettier: ^2.6.2
   sass: ^1.55.0
   typescript: ^4.8.4
 
 devDependencies:
-  '@prettier/plugin-php': 0.19.1_prettier@2.7.1
+  '@prettier/plugin-php': 0.19.2_prettier@2.7.1
   prettier: 2.7.1
   sass: 1.55.0
   typescript: 4.8.4
 
 packages:
 
-  /@prettier/plugin-php/0.19.1_prettier@2.7.1:
-    resolution: {integrity: sha512-faoQX6QF4JZ0xJT+FRkMU7JnUTqVFRSwz7oKYuKgjY6u8VHSURlRXVkP4UyXxsTPAGjVJpNh7JseKkpK1DZziw==}
+  /@prettier/plugin-php/0.19.2_prettier@2.7.1:
+    resolution: {integrity: sha512-j4Io//Js9ajKP7vgjKpS0rS8B/HKIJxutUshlbCpXvsP8Cz28MYp2VFJytpS9zyLEfsMPXordNWjkBVvHRL7ow==}
     peerDependencies:
       prettier: ^1.15.0 || ^2.0.0
     dependencies:
       linguist-languages: 7.21.0
       mem: 8.1.1
-      php-parser: 3.1.1
+      php-parser: 3.1.2
       prettier: 2.7.1
     dev: true
 
@@ -144,8 +144,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /php-parser/3.1.1:
-    resolution: {integrity: sha512-HUxWIWpJoGhnSVzM6nPI1O2RePd7eJKzJoL3VZr6/KUUdcHKBex2Cp7p6pWOV1WxgKI/oYgRPMywwLCP789OYA==}
+  /php-parser/3.1.2:
+    resolution: {integrity: sha512-RRCMK/bCKYPLRhlpfMlVVVsaIesuW+X6UxRqWjm7dTAmTZk8PvD6hCmG/RVeDzse7iqYWJwLJeqEbaGLC+aHeQ==}
     dev: true
 
   /picomatch/2.3.1:
