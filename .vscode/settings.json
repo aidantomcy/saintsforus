@@ -19,6 +19,8 @@
     "**/Thumbs.db": true,
     "**/vendor": true,
     "**/.dccache": true,
-    "**/dist": true
+    "**/dist": true,
+    "**/img": true,
+    "**/icon": true
   }
 }
