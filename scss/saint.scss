@@ -86,13 +86,13 @@ a {
 .image {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin: 2rem 0;
 }
 
 .img {
   width: 1000px;
   border-radius: 1rem;
+  margin-bottom: 2rem;
 }
 
 .container {
@@ -101,31 +101,32 @@ a {
 
 .header {
   width: 1200px;
-  height: 260px;
+  height: 275px;
   background: var(--header-background);
   color: white;
   border-radius: 1rem;
+  display: flex;
+  padding: 0;
+  margin-top: 2rem;
+
+  img {
+    height: 275px;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
 
   h1 {
     font-weight: normal;
     font-size: 60px;
-    padding-top: 10px;
-    text-align: center;
   }
 
   p {
     font-size: 19px;
-    text-align: center;
   }
 }
 
 .header-text {
   padding-left: 30px;
-}
-
-.quote-sayer {
-  text-align: right;
-  padding-right: 10px;
 }
 
 .container {
@@ -199,64 +200,47 @@ a {
 }
 
 @media (max-width: 768px) {
-  .container {
+  body {
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
   }
 
-  .header {
-    height: 180px;
-
-    h1 {
-      font-size: 40px;
-      text-align: left;
-    }
-
-    p {
-      font-size: 10px;
-      text-align: left;
-    }
-  }
-
-  .text {
-    margin-left: 10px;
-
-    h2 {
-      font-size: 20px;
-      max-width: 95vw;
-    }
-
-    p {
-      font-size: 14px;
-      max-width: 90vw;
-    }
-  }
-
-  .image {
-    img {
-      width: 95vw;
-    }
-  }
-
-  .quote-sayer {
+  ::-webkit-scrollbar {
     display: none;
   }
-}
-
-@media (max-width: 1210px) {
-  .container {
-    width: 768px;
-    height: 2400px;
-  }
 
   .header {
-    width: 100%;
+    width: 97vw;
+    margin: 0;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      display: none;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1rem;
+      text-align: center;
+      padding: 0 1rem;
+    }
   }
 
   .img {
-    width: 800px;
-  }
-
-  .quote-sayer {
-    display: none;
+    width: 100vw;
   }
 }
