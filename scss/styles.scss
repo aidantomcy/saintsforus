@@ -1,4 +1,3 @@
-@use "./mixins";
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 :root {
@@ -15,15 +14,13 @@
   --text-color: #ccc;
   --links-hover-color: #fff;
   --hamburger-menu-background: #2c2c2c;
-  @include mixins.darkThemeBg();
 }
 
 .light {
   --background-color: #fff;
-  --text-color: #000;
-  --links-hover-color: #333;
+  --text-color: #333;
+  --links-hover-color: #000;
   --hamburger-menu-background: #c2c2c2;
-  @include mixins.lightThemeBg();
 }
 
 *,
