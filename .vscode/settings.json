@@ -24,6 +24,7 @@
     "**/icon": true,
     "**/playwright-report": true,
     "**/test-results": true,
-    "**/robots.txt": true
+    "**/robots.txt": true,
+    "**/*.png": true
   }
 }
