@@ -51,3 +51,7 @@ Some inspiration to make this website came from [miracolieucaristici.org](http:/
     <br>
     <img src="img2.png" style="border-radius: 1rem;">
 </p>
+
+## Testing
+
+This app uses Playwright for testing. Run tests with `pnpm test`
