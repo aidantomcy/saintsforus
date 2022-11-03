@@ -101,7 +101,7 @@ const config: PlaywrightTestConfig = {
   webServer: {
     command: "php -S localhost:5000",
     port: 5000,
-    timeout: 300,
+    timeout: 30000,
   },
 };
 
