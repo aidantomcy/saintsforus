@@ -38,8 +38,8 @@ Some inspiration to make this website came from [miracolieucaristici.org](http:/
 ## Pictures
 
 <p align="center">
-    <img src="img1.png">
+    <img src="img1.png" style="border-radius: 1rem;">
     <br>
     <br>
-    <img src="img2.png">
+    <img src="img2.png" style="border-radius: 1rem;">
 </p>
