@@ -20,7 +20,7 @@ jobs:
         with:
           version: latest
       - name: Install PHP cli
-        run: sudo apt install php8.1-cli
+        run: sudo apt-get install php8.1-cli
       - name: Install dependencies
         run: pnpm install
       - name: Install Playwright Browsers
