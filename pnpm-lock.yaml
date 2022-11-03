@@ -34,7 +34,7 @@ packages:
     dependencies:
       linguist-languages: 7.21.0
       mem: 8.1.1
-      php-parser: 3.1.1
+      php-parser: 3.1.2
       prettier: 2.7.1
     dev: true
 
@@ -161,8 +161,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /php-parser/3.1.1:
-    resolution: {integrity: sha512-HUxWIWpJoGhnSVzM6nPI1O2RePd7eJKzJoL3VZr6/KUUdcHKBex2Cp7p6pWOV1WxgKI/oYgRPMywwLCP789OYA==}
+  /php-parser/3.1.2:
+    resolution: {integrity: sha512-RRCMK/bCKYPLRhlpfMlVVVsaIesuW+X6UxRqWjm7dTAmTZk8PvD6hCmG/RVeDzse7iqYWJwLJeqEbaGLC+aHeQ==}
     dev: true
 
   /picomatch/2.3.1:
