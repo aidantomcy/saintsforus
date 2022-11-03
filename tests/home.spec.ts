@@ -1,11 +1,11 @@
-import { test, expect, Page } from "@playwright/test";
+import { test, expect, Page, Locator } from "@playwright/test";
+import { baseURL } from "./constants/constants";
+import { PlaywrightPage } from "./types/PlaywrightPage";
 
-test("homepage has correct title", async ({ page }: { page: Page }) => {
-  const port = 5000;
-  const baseURL = `http://localhost:${port}`;
+test("homepage has correct title", async ({ page }: PlaywrightPage) => {
   await page.goto(baseURL);
-  await expect(page).toHaveTitle("Saints for Us - Home");
+  await expect<Page>(page).toHaveTitle("Saints for Us - Home");
 
   const h1 = page.locator(".title");
-  await expect(h1).toHaveText("Saints for Us");
+  await expect<Locator>(h1).toHaveText("Saints for Us");
 });
