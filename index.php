@@ -23,7 +23,7 @@
     <?php include "inc/navbar.php"; ?>
 
     <main>
-      <h1 class="title pt-4">Saints for Us</h1>
+      <h1 class="title">Saints for Us</h1>
       <div class="quote">
         <h1>"Your word is a lamp to guide my feet and a light for my path."</h1>
         <h1 class="align-right">-Psalm 119:105</h1>
