@@ -21,6 +21,9 @@
     "**/.dccache": true,
     "**/dist": true,
     "**/img": true,
-    "**/icon": true
+    "**/icon": true,
+    "**/playwright-report": true,
+    "**/test-results": true,
+    "**/robots.txt": true
   }
 }
