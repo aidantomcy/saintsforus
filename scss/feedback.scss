@@ -7,7 +7,7 @@
   --button-background: #33373a;
   --button-hover-background: #3f4142;
   --hamburger-menu-background: #2c2c2c;
-  --button-color: #a855f7;
+  --button-color: #b0e0e6;
   --alert-background: #d4edda;
   --alert-text-color: #155724;
 }
@@ -151,6 +151,7 @@ form {
     background-color: var(--button-color);
     transform: translateY(-0.1rem);
     transition: transform 0.1s ease-in;
+    color: #000;
   }
 
   &:active {
@@ -170,7 +171,7 @@ input {
 
   &:focus {
     outline: none;
-    border: 2px solid #a855f7;
+    border: 2px solid #b0e0e6;
   }
 }
 
@@ -187,7 +188,7 @@ textarea {
 
   &:focus {
     outline: none;
-    border: 2px solid #a855f7;
+    border: 2px solid #b0e0e6;
   }
 }
 
@@ -285,5 +286,15 @@ textarea {
 
   .hamburger-item {
     padding-bottom: 1rem;
+  }
+
+  input,
+  textarea,
+  .alert {
+    width: 85vw;
+  }
+
+  .alert {
+    margin-top: 2rem;
   }
 }
