@@ -13,14 +13,22 @@
   --background-color: #1f1f1f;
   --text-color: #ccc;
   --links-hover-color: #fff;
+  --button-background: #33373a;
+  --button-hover-background: #3f4142;
+  --button-text-color: white;
   --hamburger-menu-background: #2c2c2c;
+  --hamburger-fill-color: white;
 }
 
 .light {
   --background-color: #fff;
   --text-color: #333;
   --links-hover-color: #000;
+  --button-background: rgb(234 234 234/1);
+  --button-hover-background: rgb(254 254 254/2);
+  --button-text-color: black;
   --hamburger-menu-background: #c2c2c2;
+  --hamburger-fill-color: black;
 }
 
 *,
@@ -115,7 +123,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--button-text-color);
     margin-right: 1.5rem;
   }
 
@@ -229,6 +237,7 @@ footer {
 
     .hamburger {
       display: contents;
+      fill: var(--hamburger-fill-color);
       width: 2.7rem;
       height: 2.7rem;
       background-color: var(--button-background);
@@ -237,7 +246,7 @@ footer {
       display: flex;
       justify-content: center;
       align-items: center;
-      color: white;
+      color: var(--button-text-color);
       margin-right: 1.5rem;
     }
   }
