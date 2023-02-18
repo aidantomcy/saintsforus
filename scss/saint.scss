@@ -12,12 +12,12 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: "Inter", arial, helvetica, sans-serif;
 }
 
 body {
   background: var(--background-color);
   color: var(--text-color);
+  font-family: "Inter", arial, helvetica, sans-serif;
 }
 
 html,
@@ -47,76 +47,28 @@ a {
   }
 }
 
-::-webkit-scrollbar {
-  background-image: initial;
-  background-color: transparent;
-  height: 8px;
-  width: 8px;
-  background-color: #202324;
-  color: #aba499;
-}
-
-::-webkit-scrollbar-corner {
-  background-color: #181a1b;
-}
-
-::-webkit-scrollbar-thumb {
-  border-color: initial;
-  box-shadow: none;
-  background-image: initial;
-  background-color: #555;
-  border: none;
-  box-shadow: none;
-  border-radius: 4px;
-  min-height: 40px;
-
-  &:hover {
-    background: #404344;
-  }
-
-  &:active {
-    background: #4a4c4d;
-  }
-}
-
-::-webkit-scrollbar-track {
-  margin: 3px 0;
-}
-
-.image {
-  display: flex;
-  justify-content: center;
-  margin: 2rem 0;
-}
-
-.img {
-  width: 1000px;
-  border-radius: 1rem;
-  margin-bottom: 2rem;
-}
-
 .container {
-  border-radius: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 
 .header {
-  width: 1200px;
+  width: 100%;
   height: 275px;
   background: var(--header-background);
   color: white;
-  border-radius: 1rem;
+  border-radius: 2rem;
   display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0;
   margin-top: 2rem;
-
-  img {
-    height: 275px;
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-  }
+  text-align: center;
 
   h1 {
-    font-weight: normal;
+    font-weight: 600;
     font-size: 60px;
   }
 
@@ -129,28 +81,31 @@ a {
   padding-left: 30px;
 }
 
-.container {
-  display: block;
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
-}
 
-.text {
-  margin-left: 30px;
-
-  p {
-    font-size: 17px;
-    text-align: center;
+  img {
+    width: 75%;
+    border-radius: 2rem;
+    margin: 2rem 0;
   }
 
-  h2 {
-    text-align: center;
-  }
-}
+  .text {
+    p {
+      font-size: 17px;
+      text-align: center;
+    }
 
-.content {
-  width: 1200px;
+    h2 {
+      text-align: center;
+    }
+  }
 }
 
 .bottom-links {
@@ -163,7 +118,7 @@ a {
 
 .btn {
   margin-top: 30px;
-  width: 250px;
+  width: 200px;
   height: 100px;
   text-align: center;
   border: 0.1rem solid var(--button-color);
@@ -215,32 +170,21 @@ a {
   }
 
   .header {
-    width: 97vw;
-    margin: 0;
-    height: 200px;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    img {
-      display: none;
-    }
+    width: 100%;
 
     h1 {
-      font-size: 2.5rem;
-      text-align: center;
+      font-size: 2rem;
     }
 
     p {
       font-size: 1rem;
-      text-align: center;
       padding: 0 1rem;
     }
   }
 
-  .img {
-    width: 100vw;
+  .content {
+    img {
+      width: 110%;
+    }
   }
 }
