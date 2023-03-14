@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@playwright/test': ^1.27.1
-  '@prettier/plugin-php': 0.19.3
+  '@prettier/plugin-php': 0.19.4
   '@types/node': ^18.11.9
   '@typescript-eslint/eslint-plugin': ^5.42.0
   '@typescript-eslint/parser': ^5.42.0
@@ -13,7 +13,7 @@ specifiers:
 
 devDependencies:
   '@playwright/test': 1.27.1
-  '@prettier/plugin-php': 0.19.3_prettier@2.7.1
+  '@prettier/plugin-php': 0.19.4_prettier@2.7.1
   '@types/node': 18.11.9
   '@typescript-eslint/eslint-plugin': 5.42.0_6xw5wg2354iw4zujk2f3vyfrzu
   '@typescript-eslint/parser': 5.42.0_wyqvi574yv7oiwfeinomdzmc3m
@@ -91,8 +91,8 @@ packages:
       playwright-core: 1.27.1
     dev: true
 
-  /@prettier/plugin-php/0.19.3_prettier@2.7.1:
-    resolution: {integrity: sha512-gCwN+jqrnSC3zW228ZJi6oObAgzFUECSk+2IpKUeC86RZwlPxT/yooKyXiGaesNRl4xtnH3FBjQtaaGrCEzr+Q==}
+  /@prettier/plugin-php/0.19.4_prettier@2.7.1:
+    resolution: {integrity: sha512-FiSnSfP+Vo0/HVRXg7ZnEYJEM1eWS+MmsozYtzEdIf8Vg9v/+fwvyXMNayI5SgZ1Y9F5LGhl/EOMWIPzr9c2Xg==}
     peerDependencies:
       prettier: ^1.15.0 || ^2.0.0
     dependencies:
