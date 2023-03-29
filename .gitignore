@@ -1,9 +1,0 @@
-node_modules
-.env
-vendor/
-.dccache
-.yarn/cache
-.yarn/install-state.gz
-/test-results/
-/playwright-report/
-/playwright/.cache/
