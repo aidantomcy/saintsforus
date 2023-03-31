@@ -4,7 +4,8 @@
 </script>
 
 <a
+  class="text-xl font-normal hover:underline hover:decoration-sky-500 hover:decoration-wavy p-8"
   {href}
-  class="text-xl font-normal md:inline-block p-8 rounded-lg text-gray-700 hover:text-black dark:hover:text-white dark:text-grey transition-all inline"
-  >{text}</a
 >
+  {text}
+</a>
