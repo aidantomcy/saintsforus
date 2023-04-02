@@ -8,7 +8,7 @@
     class="bg-gray-200 w-1/2 h-14 rounded-xl flex justify-center items-center dark:bg-dark-secondary"
   >
     <NavItem text="Home" href="/" />
-    <NavItem text="Feedback" href="/" />
+    <NavItem text="Contact" href="/contact" />
     <NavItem text="About the Creator" href="https://aidantomcy.github.io" />
     <ThemeButton />
   </nav>
