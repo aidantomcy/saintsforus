@@ -1,0 +1,26 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.svelte";
+import { getCollection } from "astro:content";
+
+const saints = await getCollection("saints");
+---
+
+<Layout title="Saints for Us - Home">
+  <main>
+    <h1 class="text-center text-4xl my-8 dark:text-white">Saints for Us</h1>
+    <div class="grid place-items-center w-screen overflow-x-hidden">
+      <div class="grid place-items-center grid-cols-4 gap-8 max-w-5xl">
+        {
+          saints.map(({ slug, data: { title } }) => (
+            <Card
+              title={title}
+              image={`/images/${slug}-thumbnail.jpg`}
+              href={slug}
+            />
+          ))
+        }
+      </div>
+    </div>
+  </main>
+</Layout>

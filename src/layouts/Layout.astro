@@ -1,0 +1,36 @@
+---
+import Navbar from "../components/Navbar.svelte";
+
+export interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en" class="dark overflow-x-hidden">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.ico" />
+    <meta name="generator" content={Astro.generator} />
+    <meta
+      name="description"
+      content="This is a website about a few Catholic saints, whose intercession we rely on in our day-to-day lives."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/partytown" async src="https://cdn.splitbee.io/sb.js"
+    ></script>
+    <title>{title}</title>
+  </head>
+  <body class="font-inter dark:bg-dark-primary dark:text-gray-50">
+    <Navbar client:load />
+    <slot />
+  </body>
+</html>

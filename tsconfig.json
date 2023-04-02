@@ -1,12 +1,7 @@
 {
+  "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "outDir": "./dist/js/",
-    "sourceMap": true,
-    "noImplicitAny": true,
-    "module": "commonjs",
-    "target": "es2016",
-    "moduleResolution": "node",
-    "rootDir": "./ts/"
-  },
-  "exclude": ["./playwright.config.ts", "./tests/*"]
+    "strictNullChecks": true,
+    "allowJs": true
+  }
 }

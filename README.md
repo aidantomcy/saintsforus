@@ -1,57 +1,55 @@
-# Saints for Us
+# Astro Starter Kit: Basics
 
-This is a website about a few saints. This is a personal project that I began because there are not  
-many websites on this topic. This project uses PHP for the backend and I have used PHPMailer  
-to send the mail in the feedback form. I have used SCSS and TypeScript for the frontend.
+```
+npm create astro@latest -- --template basics
+```
 
-## Content and Styling
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
 
-All the styles are custom.
-I will probably dockerize this application later on.  
-To visit the site, head to [https://saintsforus.com](https://saintsforus.com)
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-## Running Locally
+![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
 
-1. Install the dependencies with PNPM and Composer:
-    ```bash
-    pnpm install
-    composer install
-    ```
-1. Compile the TypeScript code:
-    ```bash
-    pnpm prod
-    ```
-1. Compile the Sass code:
-    ```bash
-    pnpm sass:prod
-    ```
-1. Create a .env file in the website directory with the following keys:
-    - SENDER_EMAIL: An email id to send a mail in the contact form page.
-    - SENDER_EMAIL_PASSWORD: The password for the email sender.
-    - SMTP_HOST: The SMTP host.
-    - SMTP_PORT: The port to connect to.
-    - EMAIL_RECEIVER: A receiver email to get the mail sent by the email sender.
-1. Start your PHP Server.
-1. Open your browser and head to `http://localhost/saintsforus-php`
-   (This repository should be saved in the htdocs folder)
 
-## Contact
+## 🚀 Project Structure
 
-If you have any feedback, comments or criticism, please mail your queries to info.saintsforus@gmail.com
+Inside of your Astro project, you'll see the following folders and files:
 
-## Inspiration
+```
+/
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── components/
+│   │   └── Card.astro
+│   ├── layouts/
+│   │   └── Layout.astro
+│   └── pages/
+│       └── index.astro
+└── package.json
+```
 
-Some inspiration to make this website came from [miracolieucaristici.org](http://www.miracolieucaristici.org/)
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-## Pictures
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-<p align="center">
-    <img src="img1.png" style="border-radius: 1rem;">
-    <br>
-    <br>
-    <img src="img2.png" style="border-radius: 1rem;">
-</p>
+Any static assets, like images, can be placed in the `public/` directory.
 
-## Testing
+## 🧞 Commands
 
-This app uses Playwright for testing. Run tests with `pnpm test`
+All commands are run from the root of the project, from a terminal:
+
+| Command                | Action                                           |
+| :--------------------- | :----------------------------------------------- |
+| `npm install`          | Installs dependencies                            |
+| `npm run dev`          | Starts local dev server at `localhost:3000`      |
+| `npm run build`        | Build your production site to `./dist/`          |
+| `npm run preview`      | Preview your build locally, before deploying     |
+| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro --help` | Get help using the Astro CLI                     |
+
+## 👀 Want to learn more?
+
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).

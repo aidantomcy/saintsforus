@@ -1,3 +1,0 @@
-user-agent: *
-sitemap: https://saintsforus.com/sitemap.xml
-disallow:
