@@ -31,8 +31,10 @@ const { Content } = await saint.render();
       alt=""
     />
     <div class="grid place-items-center w-full lg:place-items-start">
-      <div class="text-2xl pt-4 pb-1">{title}</div>
-      <div class="text-xl">{`(${lifetime})`}</div>
+      <div class="text-2xl pt-4 pb-1 md:text-3xl text-center sm:text-left">
+        {title}
+      </div>
+      <div class="text-lg text-center sm:text-xl">{`(${lifetime})`}</div>
       <div class="w-11/12 text-center py-6 lg:text-left">
         <Content />
       </div>
