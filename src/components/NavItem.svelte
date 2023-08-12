@@ -4,7 +4,7 @@
 </script>
 
 <a
-  class="text-xl font-normal hover:underline hover:decoration-sky-500 hover:decoration-wavy p-8"
+  class="font-normal hover:underline hover:decoration-sky-500 hover:decoration-wavy px-2 md:text-xl md:px-4"
   {href}
 >
   {text}

@@ -35,7 +35,7 @@
 <button
   aria-label="Toggle Dark Mode"
   type="button"
-  class="w-9 h-9 bg-gray-300 rounded-lg dark:bg-[#3d3d3d] flex items-center justify-center hover:ring-1 dark:ring-gray-300 transition-all ring-dark-secondary"
+  class="w-9 h-9 bg-gray-300 rounded-lg dark:bg-[#3d3d3d] flex items-center justify-center hover:ring-1 dark:ring-gray-300 transition-all ring-dark-secondary m-2"
   on:click={toggle}
 >
   {#if theme === "dark"}

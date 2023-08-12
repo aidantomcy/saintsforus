@@ -10,7 +10,7 @@ const saints = await getCollection("saints");
   <main>
     <h1 class="text-center text-4xl my-8 dark:text-white">Saints for Us</h1>
     <div class="grid place-items-center w-screen overflow-x-hidden">
-      <div class="grid place-items-center grid-cols-4 gap-8 max-w-5xl">
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {
           saints.map(({ slug, data: { title } }) => (
             <Card
