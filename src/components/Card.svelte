@@ -12,7 +12,6 @@
     src={image}
     alt=""
     class="rounded-2xl object-cover w-40 h-52"
-    loading="lazy"
   />
   <div class="text-center py-2">{title}</div>
 </a>
