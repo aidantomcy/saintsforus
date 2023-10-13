@@ -1,6 +1,5 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Card from "../components/Card.svelte";
 import { getCollection } from "astro:content";
 
 const saints = await getCollection("saints");
@@ -12,13 +11,24 @@ const saints = await getCollection("saints");
     <div class="grid place-items-center w-screen overflow-x-hidden">
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {
-          saints.map(({ slug, data: { title } }) => (
-            <Card
-              title={title}
-              image={`/images/${slug}-thumbnail.jpg`}
-              href={slug}
-            />
-          ))
+          saints.map(({ slug, data: { title } }) => {
+            return (
+              <>
+                <a
+                  class="my-6 bg-gray-200 p-4 rounded-xl grid place-items-center select-none md:h-80 md:w-52 hover:-translate-y-1 hover:cursor-pointer hover:shadow-lg hover:duration-100 dark:bg-dark-secondary dark:text-white mx-2 w-10/12"
+                  href={slug}
+                >
+                  <img
+                    src={`/images/${slug}.jpg`}
+                    alt=""
+                    class="rounded-2xl object-cover w-40 h-52"
+                    transition:name={slug}
+                  />
+                  <div class="text-center py-2">{title}</div>
+                </a>
+              </>
+            );
+          })
         }
       </div>
     </div>
