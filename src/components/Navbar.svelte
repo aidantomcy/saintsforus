@@ -9,7 +9,7 @@
   >
     <NavItem text="Home" href="/" />
     <NavItem text="Contact" href="/contact" />
-    <NavItem text="About the Creator" href="https://aidantomcy.github.io" />
+    <a href="https://aidantomcy.github.io" target="_blank" class="font-normal hover:underline hover:decoration-sky-500 hover:decoration-wavy px-2 md:text-xl md:px-4">About the Creator</a>
     <ThemeButton />
   </nav>
 </div>
